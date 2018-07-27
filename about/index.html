@@ -19,8 +19,6 @@
     
 
     
-        <link rel="alternate" href="/" title="Yunyi&#39;s Website" type="application/atom+xml" />
-    
 
     
 
@@ -187,8 +185,8 @@
                     </td>
                     
                     <td>
-                        <a href="/" target="_blank" title="rss" class=tooltip>
-                            <i class="fab fa-rss"></i>
+                        <a href="https://www.facebook.com/yunyi.raphael.shen" target="_blank" title="facebook" class=tooltip>
+                            <i class="fab fa-facebook"></i>
                         </a>
                     </td>
                     
@@ -232,7 +230,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/about/index.html" data-id="cjk419o0e0001gordc1v624u6" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/about/index.html" data-id="cjk43eu490001vsrdgofz5c1y" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -311,6 +309,10 @@
 
 
     
+    
+        <section id="comments">
+	<div id="commentContainer"></div>
+</section>
     
 
 </section>
@@ -426,6 +428,22 @@
     </div>
 </footer>
         
+    
+	<link rel="stylesheet" href="https://imsun.github.io/gitment/style/default.css">
+	<script src="https://imsun.github.io/gitment/dist/gitment.browser.js"></script>
+	<script>
+		var gitment = new Gitment({
+			owner: 'YunyiShen',
+			repo: 'yunyishen/yunyishen.github.io',
+			oauth: {
+				client_id: '5c2c7967de52583f1ea5',
+				client_secret: '04e11b22b7579f8d8f1b010eaf25dded1c68e356',
+			},
+		})
+		gitment.render('commentContainer')
+	</script>
+	
+
 
 
     
