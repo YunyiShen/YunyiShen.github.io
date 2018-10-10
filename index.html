@@ -154,11 +154,11 @@
         </div>
         <div class="article-info profile-block">
             <div class="article-info-block">
-                6
+                7
                 <span>posts</span>
             </div>
             <div class="article-info-block">
-                2
+                3
                 <span>tags</span>
             </div>
         </div>
@@ -195,6 +195,151 @@
 
             
             <section id="main">
+    <article id="post-Species-Distribution-Modeling-GIS-Toolbox" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2018/10/10/Species-Distribution-Modeling-GIS-Toolbox/">Species Distribution Modeling GIS Toolbox</a>
+        </h1>
+    
+
+                
+                    <div class="article-meta">
+                        
+    <div class="article-date">
+        <i class="fas fa-calendar-alt"></i>
+        <a href="/2018/10/10/Species-Distribution-Modeling-GIS-Toolbox/">
+            <time datetime="2018-10-10T18:45:15.000Z" itemprop="datePublished">2018-10-10</time>
+        </a>
+    </div>
+
+
+                        
+                        
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link" href="/tags/Distribution-Modeling/">Distribution Modeling</a>
+    </div>
+
+                    </div>
+                
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><p>Distribution Modeling is a strong technique in ecology. It needs a lot of GIS operations to environmental layers, including mosaic, clip, projection, resample etc. If you need to do tons of distribution modeling, dealing with rasters manually can be annoying even impossible. When I am working on these stuff, I wrote some of the small GIS tools to help myself deal with 1000 remote sensing images and environmental layers (e.g. time series of NDVI). They are usually quick  and dirty without optimization but useful. Here is a list:<br><a href="./Mosaicbulk.py">Mosaic layers using Arcpy</a><br><a href="./HDFextracting.py">Extract data form hdf, py</a><br><a href="./split.py">Split raster, py</a><br><a href="./split by multiple masks.py">Split rasters using multiple masks, py</a><br><a href="./project.py">Project rasters using a template, py</a><br><a href="./tiff2asc.py">TIF to ASC, py</a><br><a href="./resultasc2tif.py">ASC to TIF, py</a><br><a href="./resamplebulk.R">Resample rasters and change to asc, R</a><br><a href="./google map api.R">Get long and lat using Google Map API, R</a><br><a href="./VHthinner.R">VH thinner dealing with biased sampling, R</a><br><a href="./certain distance thinner.R">Delete points within certain distance, R</a></p>
+<p>All py files are written in Arcpy (python 2.7). To use it, right click it, choose “Edit with IDLE”, edit things need to edit and click RUN-Run module. </p>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2018/10/10/Species-Distribution-Modeling-GIS-Toolbox/#more">Read More</a>
+            </div>
+        
+        <footer class="article-footer">
+            <div class="share-container">
+
+
+
+</div>
+
+    <a data-url="http://yunyishen.ml/2018/10/10/Species-Distribution-Modeling-GIS-Toolbox/" data-id="cjn3jksl70002rsrd2czlhzgg" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+<script>
+    (function ($) {
+        // Prevent duplicate binding
+        if (typeof(__SHARE_BUTTON_BINDED__) === 'undefined' || !__SHARE_BUTTON_BINDED__) {
+            __SHARE_BUTTON_BINDED__ = true;
+        } else {
+            return;
+        }
+        $('body').on('click', function() {
+            $('.article-share-box.on').removeClass('on');
+        }).on('click', '.article-share-link', function(e) {
+            e.stopPropagation();
+
+            var $this = $(this),
+                url = $this.attr('data-url'),
+                encodedUrl = encodeURIComponent(url),
+                id = 'article-share-box-' + $this.attr('data-id'),
+                offset = $this.offset(),
+                box;
+
+            if ($('#' + id).length) {
+                box = $('#' + id);
+
+                if (box.hasClass('on')){
+                    box.removeClass('on');
+                    return;
+                }
+            } else {
+                var html = [
+                    '<div id="' + id + '" class="article-share-box">',
+                        '<input class="article-share-input" value="' + url + '">',
+                        '<div class="article-share-links">',
+                            '<a href="https://twitter.com/intent/tweet?url=' + encodedUrl + '" class="fab fa-twitter article-share-twitter" target="_blank" title="Twitter"></a>',
+                            '<a href="https://www.facebook.com/sharer.php?u=' + encodedUrl + '" class="fab fa-facebook article-share-facebook" target="_blank" title="Facebook"></a>',
+                            '<a href="http://pinterest.com/pin/create/button/?url=' + encodedUrl + '" class="fab fa-pinterest article-share-pinterest" target="_blank" title="Pinterest"></a>',
+                            '<a href="https://plus.google.com/share?url=' + encodedUrl + '" class="fab fa-google article-share-google" target="_blank" title="Google+"></a>',
+                        '</div>',
+                    '</div>'
+                ].join('');
+
+              box = $(html);
+
+              $('body').append(box);
+            }
+
+            $('.article-share-box.on').hide();
+
+            box.css({
+                top: offset.top + 25,
+                left: offset.left
+            }).addClass('on');
+
+        }).on('click', '.article-share-box', function (e) {
+            e.stopPropagation();
+        }).on('click', '.article-share-box-input', function () {
+            $(this).select();
+        }).on('click', '.article-share-box-link', function (e) {
+            e.preventDefault();
+            e.stopPropagation();
+
+            window.open(this.href, 'article-share-box-window-' + Date.now(), 'width=500,height=450');
+        });
+    })(jQuery);
+</script>
+
+            
+    
+
+        </footer>
+    </div>
+    
+</article>
+
+
+
+
     <article id="post-This-Week-s-Finds-Phylogeny-and-Ancestor-s-Distribution-of-Pheasants" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
@@ -263,7 +408,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/2018/09/26/This-Week-s-Finds-Phylogeny-and-Ancestor-s-Distribution-of-Pheasants/" data-id="cjmpnx6gw0008hwrd5c8tn9r0" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/2018/09/26/This-Week-s-Finds-Phylogeny-and-Ancestor-s-Distribution-of-Pheasants/" data-id="cjn3jksln000brsrdogfeny35" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -408,7 +553,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/2018/08/19/This-Week-s-Finds-Phylogenetic-Tree-DFS/" data-id="cjmpnx6gt0005hwrdnocvktcg" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/2018/08/19/This-Week-s-Finds-Phylogenetic-Tree-DFS/" data-id="cjn3jkslj0008rsrdgj6zcf8g" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -553,7 +698,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/2018/08/06/This-Week-s-Finds-Muntjacs-in-QJY-National-Park/" data-id="cjmpnx6h0000ahwrdi0g48064" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/2018/08/06/This-Week-s-Finds-Muntjacs-in-QJY-National-Park/" data-id="cjn3jksle0005rsrdi4gr4fdx" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -698,7 +843,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/2018/07/28/Start-of-This-Week-s-Finds/" data-id="cjmpnx6cs0003hwrd3bfrgyxp" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/2018/07/28/Start-of-This-Week-s-Finds/" data-id="cjn3jkslh0007rsrd767jh8qm" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -836,7 +981,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/2018/07/26/A-Small-Step/" data-id="cjmpnx67u0000hwrdkz73wgpq" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/2018/07/26/A-Small-Step/" data-id="cjn3jkskx0000rsrdbragj9yi" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -976,7 +1121,7 @@
 
 </div>
 
-    <a data-url="http://yunyishen.ml/2018/07/26/hello-world/" data-id="cjmpnx6gy0009hwrd8qlojl9r" class="article-share-link"><i class="fas fa-share"></i>Share</a>
+    <a data-url="http://yunyishen.ml/2018/07/26/hello-world/" data-id="cjn3jkslr000crsrd6kxiiywt" class="article-share-link"><i class="fas fa-share"></i>Share</a>
 <script>
     (function ($) {
         // Prevent duplicate binding
@@ -1066,6 +1211,25 @@
                     <li>
                         
                         <div class="item-thumbnail">
+                            <a href="/2018/10/10/Species-Distribution-Modeling-GIS-Toolbox/" class="thumbnail">
+    
+    
+        <span class="thumbnail-image thumbnail-none"></span>
+    
+</a>
+
+                        </div>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/10/10/Species-Distribution-Modeling-GIS-Toolbox/" class="title">Species Distribution Modeling GIS Toolbox</a></p>
+                            <p class="item-date"><time datetime="2018-10-10T18:45:15.000Z" itemprop="datePublished">2018-10-10</time></p>
+                        </div>
+                    </li>
+                
+                    <li>
+                        
+                        <div class="item-thumbnail">
                             <a href="/2018/09/26/This-Week-s-Finds-Phylogeny-and-Ancestor-s-Distribution-of-Pheasants/" class="thumbnail">
     
     
@@ -1139,25 +1303,6 @@
                         </div>
                     </li>
                 
-                    <li>
-                        
-                        <div class="item-thumbnail">
-                            <a href="/2018/07/26/A-Small-Step/" class="thumbnail">
-    
-    
-        <span class="thumbnail-image thumbnail-none"></span>
-    
-</a>
-
-                        </div>
-                        
-                        <div class="item-inner">
-                            <p class="item-category"></p>
-                            <p class="item-title"><a href="/2018/07/26/A-Small-Step/" class="title">A Small Step</a></p>
-                            <p class="item-date"><time datetime="2018-07-27T01:21:42.000Z" itemprop="datePublished">2018-07-26</time></p>
-                        </div>
-                    </li>
-                
             </ul>
         </div>
     </div>
@@ -1169,7 +1314,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">archives</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">3</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/10/">October 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/09/">September 2018</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/08/">August 2018</a><span class="archive-list-count">2</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/07/">July 2018</a><span class="archive-list-count">3</span></li></ul>
         </div>
     </div>
 
@@ -1178,7 +1323,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">tags</h3>
         <div class="widget">
-            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/This-Week-s-Finds/">This Week's Finds</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web-tech/">Web tech</a><span class="tag-list-count">1</span></li></ul>
+            <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Distribution-Modeling/">Distribution Modeling</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/This-Week-s-Finds/">This Week's Finds</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/Web-tech/">Web tech</a><span class="tag-list-count">1</span></li></ul>
         </div>
     </div>
 
@@ -1187,7 +1332,7 @@
     <div class="widget-wrap">
         <h3 class="widget-title">tag cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/This-Week-s-Finds/" style="font-size: 20px;">This Week's Finds</a> <a href="/tags/Web-tech/" style="font-size: 10px;">Web tech</a>
+            <a href="/tags/Distribution-Modeling/" style="font-size: 10px;">Distribution Modeling</a> <a href="/tags/This-Week-s-Finds/" style="font-size: 20px;">This Week's Finds</a> <a href="/tags/Web-tech/" style="font-size: 10px;">Web tech</a>
         </div>
     </div>
 
