@@ -1,1 +1,1 @@
-Sitemap: yunyishen.ml/sitemap.xml
+Sitemap: https://yunyishen.github.io/sitemap.xml
