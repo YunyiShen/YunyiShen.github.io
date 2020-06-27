@@ -3,7 +3,8 @@ title: "Chicago Deer Population Simulation under Selective Culling"
 excerpt: "Deer management"
 collection: software
 type: "shiny"
-permalink: /software/ChicagoDeer
+permalink: /software/ChicagoDeer.md
+date: 2019-12-01
 venue: "shinyapp.io"
 ---
 

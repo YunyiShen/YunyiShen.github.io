@@ -3,7 +3,7 @@ title: "SEIR Simulation of COVID-19 (translated from EN to CN)"
 collection: software
 excerpt: "COVID-19 related"
 type: "shiny"
-permalink: /software/SEIRCN
+permalink: /software/SEIRCN.md
 venue: "COVID19"
 ---
 

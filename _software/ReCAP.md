@@ -3,7 +3,7 @@ title: "ReCAP"
 collection: software
 excerpt: "Population Reconstruction"
 type: "Package"
-permalink: /software/ReCAP
+permalink: /software/ReCAP.md
 venue: "on Github"
 ---
 
