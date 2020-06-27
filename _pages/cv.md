@@ -57,3 +57,6 @@ Teaching
 
 Consulting
 ======
+
+
+[PDF version](https://YunyiShen.github.io/files/CV.pdf)
