@@ -1,7 +1,7 @@
 ---
 title: "IsingOccu"
 collection: software
-excerpt: "Community occupancy model"
+excerpt: "Spatial explicit community occupancy model"
 type: "Package"
 permalink: /software/IsingOccu
 venue: "Github"

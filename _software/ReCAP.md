@@ -1,7 +1,7 @@
 ---
 title: "ReCAP"
 collection: software
-excerpt: "Population Reconstruction"
+excerpt: "Animal population reconstruction from multiple data sources"
 type: "Package"
 permalink: /software/ReCAP
 date: 2020-01-01

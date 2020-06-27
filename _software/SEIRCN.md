@@ -1,7 +1,7 @@
 ---
 title: "SEIR Simulation of COVID-19 (translated from EN to CN)"
 collection: software
-excerpt: "COVID-19 related"
+excerpt: "COVID-19 dynamic simulation (in Chinese)"
 type: "shiny"
 permalink: /software/SEIRCN
 date: 2020-01-01

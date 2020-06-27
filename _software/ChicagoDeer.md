@@ -1,6 +1,6 @@
 ---
 title: "Chicago Deer Population Simulation under Selective Culling"
-excerpt: "Deer management"
+excerpt: "Evaluate the effect of selective harvest on deer population"
 collection: software
 type: "shiny"
 permalink: /software/ChicagoDeer
