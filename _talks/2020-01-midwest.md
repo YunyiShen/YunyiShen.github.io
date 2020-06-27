@@ -15,4 +15,5 @@ and population control in urban/suburban white-tailed deer, Chicago,
 IL 1992-2006” 2020 *Midwest Fish and Wildlife Conference*
 
 [Download Slides](https://YunyiShen.github.io/files/Midwest.pdf)
+
 [Interactive Graph of Result](https://yunyishen.shinyapps.io/chicago_scheme/)

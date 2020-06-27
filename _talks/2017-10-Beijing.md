@@ -1,6 +1,7 @@
 ---
-title: "Managing White-tailed Deer Under a Newly Evolving
-Paradigm: A Demonstration of the Effects of Density-Dependence"
+title: "Identify critical knowledge gap
+and conservation needs of Asiatic Black Bear through high-resolution
+mapping"
 collection: talks
 type: "Talk"
 permalink: /talks/2019-10-Beijing
