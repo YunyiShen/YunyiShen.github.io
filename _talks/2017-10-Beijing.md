@@ -15,3 +15,6 @@ mapping” *Chinese Chapter of SCB Annual Conference 2017* Best grad
 uate student presentation award
 
 [Download Slides](https://YunyiShen.github.io/files/Bear.pdf)
+
+Potential habitat of Asiatic Black Bear in China:
+![](https://YunyiShen.github.io/files/ABB.jpg)
