@@ -11,49 +11,49 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* B.S. in Integrated Science/Physical Biology, Peking University, 2018
+* M.S. in Wildlife Ecology, University of Wisconsin-Madison, 2020 (expected)
+* M.S. in Statistics, University of Wisconsin-Madison, 2021 (expected)
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* 2019-2020: Research Assistant
+  * UW-Madison, Department of Forest and Wildlife Ecology
+  * Duties included: Community Ecology of Carnivore
+  * Supervisor: Professor Tim Van Deelen
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+* 2020-Current: Research Assistant
+  * UW-Madison, Wisconsin Institute for Discovery
+  * Duties included: Network Reconstruction of Plant Microbes
+  * Supervisor: Professor Claudia Sol&iacute;s-Lemus
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Applied Statistics
+* Programming Languages
+  * C++
+  * R
+  * Matlab
+  * Python
+* Linux
 
 Publications
 ======
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
+
+Consulting
 ======
-* Currently signed in to 43 different slack teams
