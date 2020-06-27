@@ -11,4 +11,4 @@ citation: 'Yu, J., Shen, Y., Song, X., Chen, X., Li, S., & Shen, X. (2019). Eval
 
 A map pf QJY nation park with potential black muntjac habitat
 
-![](https://YunyiShen.github.io/files/BM.jpg)
+![](https://YunyiShen.github.io/files/BM.png)
