@@ -1,9 +1,10 @@
 ---
 title: "ReCAP"
 collection: software
+excerpt: "Population Reconstruction"
 type: "Package"
 permalink: /software/ReCAP
-venue: "Reconstruct of Culled and Aerial counted Population"
+venue: "on Github"
 ---
 
 [Package on Github](https://github.com/YunyiShen/ReCAP)
