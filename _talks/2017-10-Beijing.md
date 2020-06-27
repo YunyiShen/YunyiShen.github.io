@@ -5,7 +5,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2019-10-Beijing
 venue: "Chinese Chapter of SCB Annual Conference 2017"
-date: 2017-12
+date: 2017-12-07
 location: "Beijing, China"
 ---
 

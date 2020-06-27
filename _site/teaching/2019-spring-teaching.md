@@ -19,7 +19,7 @@
 
 
 
-<title>Teaching experience 2 - Yunyi Shen</title>
+<title>Teaching Assistant of CHEM 104 - Yunyi Shen</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yunyi Shen">
-<meta property="og:title" content="Teaching experience 2">
+<meta property="og:title" content="Teaching Assistant of CHEM 104">
 
 
-  <link rel="canonical" href="https://YunyiShen.github.io/teaching/2015-spring-teaching-1">
-  <meta property="og:url" content="https://YunyiShen.github.io/teaching/2015-spring-teaching-1">
+  <link rel="canonical" href="https://YunyiShen.github.io/teaching/2019-spring-teaching.md">
+  <meta property="og:url" content="https://YunyiShen.github.io/teaching/2019-spring-teaching.md">
 
 
 
-  <meta property="og:description" content="This is a description of a teaching experience. You can use markdown like any other post.">
+  <meta property="og:description" content="">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2015-01-01T00:00:00-06:00">
+  <meta property="article:published_time" content="2019-01-01T00:00:00-06:00">
 
 
 
@@ -256,21 +256,21 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Teaching experience 2">
-    <meta itemprop="description" content="This is a description of a teaching experience. You can use markdown like any other post.">
-    <meta itemprop="datePublished" content="January 01, 2015">
+    <meta itemprop="headline" content="Teaching Assistant of CHEM 104">
+    <meta itemprop="description" content="">
+    <meta itemprop="datePublished" content="January 01, 2019">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Teaching experience 2
+          <h1 class="page__title" itemprop="headline">Teaching Assistant of CHEM 104
 </h1>
           
         
         
         
-          <p> Workshop, <i>University 1, Department</i>, 2015 </p>
+          <p> Undergraduate course, <i>University of Wisconsin-Madison, Department of Chemistry</i>, 2019 </p>
         
         
              
@@ -280,13 +280,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>This is a description of a teaching experience. You can use markdown like any other post.</p>
-
-<h1 id="heading-1">Heading 1</h1>
-
-<h1 id="heading-2">Heading 2</h1>
-
-<h1 id="heading-3">Heading 3</h1>
+        
 
         
       </section>
@@ -307,11 +301,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://YunyiShen.github.io/teaching/2015-spring-teaching-1" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://YunyiShen.github.io/teaching/2019-spring-teaching.md" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YunyiShen.github.io/teaching/2015-spring-teaching-1" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YunyiShen.github.io/teaching/2019-spring-teaching.md" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YunyiShen.github.io/teaching/2015-spring-teaching-1" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YunyiShen.github.io/teaching/2019-spring-teaching.md" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -319,7 +313,7 @@
 
   <nav class="pagination">
     
-      <a href="https://YunyiShen.github.io/teaching/2014-spring-teaching-1" class="pagination--pager" title="Teaching experience 1
+      <a href="https://YunyiShen.github.io/teaching/2019-spring-teaching.md" class="pagination--pager" title="Teaching Assistant of CHEM 103
 ">Previous</a>
     
     

@@ -6,7 +6,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/2020-01-midwest
 venue: "Midwest Fish and Wildlife Conference"
-date: 2020-01
+date: 2020-01-01
 location: "Spring Field, IL"
 ---
 
