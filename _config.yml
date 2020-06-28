@@ -181,6 +181,11 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
+
+  preprints:
+    output: true
+    permalink: /:collection/:path/
+
   software:
     output: true
     permalink: /:collection/:path/
@@ -188,6 +193,9 @@ collections:
     output: true
     permalink: /:collection/:path/
   gallery:
+    output: true
+    permalink: /:collection/:path/
+  research:
     output: true
     permalink: /:collection/:path/
 

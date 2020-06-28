@@ -59,4 +59,4 @@ Consulting
 ======
 
 
-[PDF version](https://YunyiShen.github.io/files/CV.pdf)
+[CV in PDF format](https://YunyiShen.github.io/files/CV.pdf)
