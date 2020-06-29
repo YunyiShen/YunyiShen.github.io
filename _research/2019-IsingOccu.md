@@ -5,8 +5,6 @@ permalink: /research/2019-IsingOccu
 excerpt: 'Spatial explicit multi-specific occupancy model and its application on the Apostle Island National Lakeshore'
 date: 2018-09-02
 venue: 'Tim Van Deelen, University of Wisconsin-Madison'
-#paperurl: 'https://doi.org/10.17520/biods.2018246'
-#citation: 'Yu, J., Shen, Y., Song, X., Chen, X., Li, S., & Shen, X. (2019). Evaluating the effectiveness of functional zones for black muntjac (Muntiacus crinifrons) protection in qianjiangyuan national park pilot site. Biodiversity Science, 27(1).'
 ---
 
 ## Background
@@ -34,7 +32,7 @@ We used the negative potential function to evaluate contribution of each driver.
 
 ## Some finding
 
-Data supported mainland-island rather than stepping-stone model for spatial auto-correlation, We detected a significant positive distance dependency in fisher (2.479,CI=[0.976,4.744]) and a negative distance dependency in marten's occupancy (-0.789,CI=[-1.907,-0.0558]). However, we did not detect significant association between these species in both occupancy and detection ($CI=[-0.215,0.393]$, $[-0.326, 0.322]$). Marten showed a intra-island spatial auto-correlation $0.260$ $CI=[0.0551,0.444]$). These findings support hypothesis that, **instead of competition, the partition pattern of fisher and marten was better explained by flipped mainland-island process (i.e. disperse from island to mainland)**.
+Data supported mainland-island rather than stepping-stone model for spatial auto-correlation, We detected a significant positive distance dependency in fisher (2.479,CI=[0.976,4.744]) and a negative distance dependency in marten's occupancy (-0.789,CI=[-1.907,-0.0558]). However, we did not detect significant association between these species in both occupancy and detection (CI=[-0.215,0.393], [-0.326, 0.322]). Marten showed a intra-island spatial auto-correlation 0.260, CI=[0.0551,0.444]). These findings support hypothesis that, **instead of competition, the partition pattern of fisher and marten was better explained by flipped mainland-island process (i.e. disperse from island to mainland)**.
 
 Negative potential function showed again that association has no significant contribution to the distribution pattern of FM system. FM system seemed to be dispersal/environment driven for fisher, while dispersal/environment had similar level of contribution with intra-island spatial auto-correlation for marten.
 
