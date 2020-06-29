@@ -16,7 +16,7 @@ Due to a recent flourish of camera-trapping research, ecologists now can get vas
 
 The objective of this study was to develop a model that can capture spatial auto-correlation and interspecific interactions while controlling for environmental predictors and, consequently, understanding the drivers of distributions of competing species pairs in the Apostle Islands National Lakeshore (APIS, Wisconsin, USA). We focused on 4 species (two pairs), Fisher-Marten and Coyote-Fox:
 
-![](http://YunyiShen.github.io/files/Research_figs/4spp_map.png)
+![](http://YunyiShen.github.io/files/Research_figs/APIS/4spp_map.png)
 
 
 ## The Model
@@ -27,7 +27,7 @@ To fit such a model, we used a special MCMC algorithm for doubly intractable dis
 
 Simulation showed the algorithm worked pretty well in terms of constructing the network for two species:
 
-![](http://YunyiShen.github.io/files/Research_figs/bigsimulation_temp.png)
+![](http://YunyiShen.github.io/files/Research_figs/APIS/bigsimulation_temp.png)
 
 
 We used the negative potential function to evaluate contribution of each driver.
@@ -38,10 +38,10 @@ Data supported mainland-island rather than stepping-stone model for spatial auto
 
 Negative potential function showed again that association has no significant contribution to the distribution pattern of FM system. FM system seemed to be dispersal/environment driven for fisher, while dispersal/environment had similar level of contribution with intra-island spatial auto-correlation for marten.
 
-![](http://YunyiShen.github.io/files/Research_figs/negH_FM_env.jpg)
+![](http://YunyiShen.github.io/files/Research_figs/APIS/negH_FM_env.jpg)
 
 For coyote and fox, we detected a significant positive distance dependency in fox but not coyote (Coyote: 0.552,CI=[-0.378,1.69] Fox: 2.41,CI=[0.428,6.30]). Meanwhile, posterior association in occupancy was estimated positive (0.234,CI=[-0.041,0.53]). These findings suggest that on top of dispersion/environment, **we have some evidence that there exist a positive association between two species that need further evaluation**.
 
 Similar to the FM system, dispersal/environment was also driving the CF system, in the contrast, spatial auto-correlation and interspecific interaction seem to be important also. Note that we detected a significant positive association in 60 days scale in detection may due to some behavioral interaction between them.
 
-![](http://YunyiShen.github.io/files/Research_figs/negH_CF_env.jpg)
+![](http://YunyiShen.github.io/files/Research_figs/APIS/negH_CF_env.jpg)
