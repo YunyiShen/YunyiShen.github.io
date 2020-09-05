@@ -39,6 +39,11 @@ Skills
 
 Publications
 ======
+Preprints
+  <ul>{% for post in site.preprints %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+Journal Articals
   <ul>{% for post in site.publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
