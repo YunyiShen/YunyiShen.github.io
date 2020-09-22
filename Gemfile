@@ -8,6 +8,7 @@ source "https://rubygems.org"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
+#bundle update kramdown
 
 gem "github-pages", group: :jekyll_plugins
 
