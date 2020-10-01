@@ -19,7 +19,7 @@ Take a close look to the question, it can be understand as a graphical selection
 
 Alright, we can further simplify the problem to Normal case, which is tractable and can act as a "core" for other type of responses. The model that account for conditional dependence between environment and species? Conditional Auto-Regression (CAR) model is a natural choice. Our goal was to study the sparse regression of such model. We took a Bayesian approach, view the LASSO penalty as LASSO prior, then we can derive a Gibbs sampler to sample from the posterior efficiently...
 
-## Some result
+## Some results
 
 ### Speed
 
@@ -31,6 +31,8 @@ The model (CAR-LASSO) is quite fast, we did experiment with a i7 desktop with wi
 
 We compared it with several other models for a 30-nodes 10 or 5 predictors system on 6 different graph structure..
 
+#### Stein's Loss of the graph within nodes
 ![Stein's Loss of the graph within nodes](http://YunyiShen.github.io/files/Research_figs/CARLASSO/Stein_k30.jpg)
 
+#### log L2 Loss of the edges between predictors and nodes
 ![log L2 Loss of the edges between predictors and nodes](http://YunyiShen.github.io/files/Research_figs/CARLASSO/beta_k30.jpg)
