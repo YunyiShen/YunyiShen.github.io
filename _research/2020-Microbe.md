@@ -36,3 +36,18 @@ We compared it with several other models for a 30-nodes 10 or 5 predictors syste
 
 #### log L2 Loss of the edges between predictors and nodes
 ![log L2 Loss of the edges between predictors and nodes](http://YunyiShen.github.io/files/Research_figs/CARLASSO/beta_k30.jpg)
+
+
+
+### Real data example
+
+We applied the model to two real world datasets. One from [human gut](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp154), the other from [soil](https://www.mg-rast.org/mgmain.html?mgpage=project&project=mgp2592). We mapped the conditional auto regressive coefficient as a edge network, and evaluated the alpha centrality of each nodes
+
+#### Human gut
+![](http://YunyiShen.github.io/files/Research_figs/CARLASSO/humangut.jpg)
+
+#### Soil
+![](http://YunyiShen.github.io/files/Research_figs/CARLASSO/soil.jpg)
+
+
+
