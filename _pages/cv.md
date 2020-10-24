@@ -31,8 +31,8 @@ Skills
 ======
 * Applied Statistics
 * Programming Languages
-  * C++
   * R
+  * C++
   * Matlab
   * Python
 * Linux
