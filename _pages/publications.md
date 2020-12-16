@@ -4,6 +4,15 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+## Preprints
+
+{% include base_path %}
+
+{% for post in site.preprints reversed %}
+  {% include archive-single-preprints.html %}
+{% endfor %}
+
+
 
 ## Journal Articles
 
@@ -13,10 +22,3 @@ author_profile: true
   {% include archive-single.html %}
 {% endfor %}
 
-## Preprints
-
-{% include base_path %}
-
-{% for post in site.preprints reversed %}
-  {% include archive-single-preprints.html %}
-{% endfor %}
