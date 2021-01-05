@@ -1,8 +1,8 @@
 ---
-title: "Spatial Explicit Multi-specific Occupancy Modeling"
+title: "Spatial Explicit Multi-species Occupancy Modeling"
 collection: research
 permalink: /research/2019-IsingOccu
-excerpt: 'Spatial explicit multi-specific occupancy model and its application on the Apostle Island National Lakeshore'
+excerpt: 'Spatial explicit multi-species occupancy model and its application on the Apostle Island National Lakeshore'
 date: 2018-09-02
 venue: 'Tim Van Deelen, University of Wisconsin-Madison'
 ---
@@ -43,3 +43,6 @@ For coyote and fox, we detected a significant positive distance dependency in fo
 Similar to the FM system, dispersal/environment was also driving the CF system, in the contrast, spatial auto-correlation and interspecific interaction seem to be important also. Note that we detected a significant positive association in 60 days scale in detection may due to some behavioral interaction between them.
 
 ![](http://YunyiShen.github.io/files/Research_figs/APIS/negH_CF_env.jpg)
+
+
+Get the [preprint](https://www.biorxiv.org/content/10.1101/2020.08.05.238774v2.abstract)
