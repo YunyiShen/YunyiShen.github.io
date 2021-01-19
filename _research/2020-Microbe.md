@@ -51,3 +51,7 @@ We applied the model to two real world datasets. One from [human gut](https://ww
 
 
 Get the [preprint](https://arxiv.org/abs/2012.08397)
+
+Word cloud of this project:
+![](http://YunyiShen.github.io/files/Research_figs/CARLASSO/CARLASSO.png)
+

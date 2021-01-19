@@ -46,3 +46,6 @@ Similar to the FM system, dispersal/environment was also driving the CF system, 
 
 
 Get the [preprint](https://www.biorxiv.org/content/10.1101/2020.08.05.238774v2.abstract)
+
+Word cloud of this project:
+![](http://YunyiShen.github.io/files/Research_figs/APIS/IsingOccu.png)
