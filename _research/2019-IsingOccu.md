@@ -7,6 +7,8 @@ date: 2018-09-02
 venue: 'Tim Van Deelen, University of Wisconsin-Madison'
 ---
 
+![](http://YunyiShen.github.io/files/Research_figs/APIS/IsingOccu.png)
+
 ## Background
 Drivers of distributions of species and community structures are among the most important questions in ecology. Recent research suggested that communities reflect both species- and patch-level drivers, i.e . neither species nor sites were exchangeable. Thus Modelers should model different processes explicitly to understand their relative importance. A general framework for modeling systems with unspecified dependence structures (e.g. competition between species, spatial auto-correlation between sites) is Probabilistic Graph Modeling (PGMs). Markov Random Field modeling (MRF) is a kind of PGM that defines joint distributions of sets of random variables linked by non-directed graphics which allow cycles . MRF has long been used to model spatial correlations in ecology and agriculture, e.g. in spatial ecology, as well as temporal analysis and interspecific interactions. It was also widely used for modeling networks in social systems, genetic associations, as well as competing species.
 
@@ -46,6 +48,3 @@ Similar to the FM system, dispersal/environment was also driving the CF system, 
 
 
 Get the [preprint](https://www.biorxiv.org/content/10.1101/2020.08.05.238774v2.abstract)
-
-Word cloud of this project:
-![](http://YunyiShen.github.io/files/Research_figs/APIS/IsingOccu.png)

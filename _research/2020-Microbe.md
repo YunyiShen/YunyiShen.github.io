@@ -7,6 +7,8 @@ date: 2020-05-01
 venue: 'Claudia Sol&iacute;s-Lemus, University of Wisconsin-Madison'
 ---
 
+![](http://YunyiShen.github.io/files/Research_figs/CARLASSO/CARLASSO.png)
+
 ## Background
 
 Species formed complex networks. It is often time hard to direct measure the network and interactions between species. It is especially true that for taxa of microbe that cannot be cultured (alone) in the lab. 
@@ -52,6 +54,5 @@ We applied the model to two real world datasets. One from [human gut](https://ww
 
 Get the [preprint](https://arxiv.org/abs/2012.08397)
 
-Word cloud of this project:
-![](http://YunyiShen.github.io/files/Research_figs/CARLASSO/CARLASSO.png)
+
 
