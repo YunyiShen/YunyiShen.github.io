@@ -67,3 +67,4 @@ gut_res <- horseshoe(gut_res)
 plot(gut_res)
 ```
 
+![The Result](http://YunyiShen.github.io/files/Research_figs/CARLASSO/gut_count.png)
