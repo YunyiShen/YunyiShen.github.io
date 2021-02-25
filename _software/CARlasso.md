@@ -47,6 +47,10 @@ plot(gut_res)
 ```
 It might take a little while due to the sampling process of the latent normal variable 
 
+
+![The Result](http://YunyiShen.github.io/files/Research_figs/CARLASSO/human_gut_reduce.png)
+
+
 Though we don't recommend treating compositional data as counts, as a illustration, we can run the counting model:
 
 ```r
