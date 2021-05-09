@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Yunyi Shen"
 title_separator          : "-"
 name                     : &name "Yunyi Shen"
-description              : &description "MS Student in Statistics and Wildlife Ecology"
+description              : &description "PhD Student in Statistics"
 url                      : https://YunyiShen.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "YunyiShen.github.io"
@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Yunyi Shen"
   avatar           : "profile.jpg"
-  bio              : "MS Student in Statistics and Wildlife Ecology"
-  location         : "Madison WI"
+  bio              : "PhD Student in Statistics, UoT"
+  location         : "Toronto, Ontario, Canada"
   employer         :
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : #"http://yourfullgooglescholarurl.com"
-  email            : "yshen99@wisc.edu"
+  email            : "yyshen@pku.edu.cn"
   researchgate     : "https://www.researchgate.net/profile/Yunyi_Shen"
   uri              :
   bitbucket        :
