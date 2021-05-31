@@ -17,7 +17,7 @@ gem "github-pages", group: :jekyll_plugins
 
 # gem "jekyll"
 
-gem "kramdown", ">= 2.3.0"
+gem "kramdown", ">= 2.3.1"
 gem "wdm", "~> 0.1.0" if Gem.win_platform?
 
 # If you have any plugins, put them here!
