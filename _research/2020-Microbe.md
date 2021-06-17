@@ -2,7 +2,7 @@
 title: "Network Reconstruction of Plant Microbe Community and Experimental Design "
 collection: research
 permalink: /research/2020-Microbe
-excerpt: 'Graphical LASSO and its extension on Microbiome of plant species'
+excerpt: 'Conditional Auto-Regressive LASSO and its experimental design on Microbiome of plant species'
 date: 2020-05-01
 venue: 'Claudia Sol&iacute;s-Lemus, University of Wisconsin-Madison'
 ---

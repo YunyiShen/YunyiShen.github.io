@@ -19,7 +19,7 @@
 
 
 
-<title>Network Reconstruction of Plant Microbe Community and Experimental Design  - Yunyi Shen</title>
+<title>Detecting Flares using TESS Mission’s Photometric Data of M-Dwarfs - Yunyi Shen</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yunyi Shen">
-<meta property="og:title" content="Network Reconstruction of Plant Microbe Community and Experimental Design">
+<meta property="og:title" content="Detecting Flares using TESS Mission’s Photometric Data of M-Dwarfs">
 
 
-  <link rel="canonical" href="https://YunyiShen.github.io/research/2020-Microbe">
-  <meta property="og:url" content="https://YunyiShen.github.io/research/2020-Microbe">
+  <link rel="canonical" href="https://YunyiShen.github.io/research/2021-Flare">
+  <meta property="og:url" content="https://YunyiShen.github.io/research/2021-Flare">
 
 
 
-  <meta property="og:description" content="Conditional Auto-Regressive LASSO and its experimental design on Microbiome of plant species">
+  <meta property="og:description" content="A Timeseries Model with (quasi-periodic) Gaussian Process Trend and Hidden Markov Firing">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2020-05-01T00:00:00-05:00">
+  <meta property="article:published_time" content="2021-06-17T00:00:00-05:00">
 
 
 
@@ -261,20 +261,20 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="Network Reconstruction of Plant Microbe Community and Experimental Design">
-    <meta itemprop="description" content="Conditional Auto-Regressive LASSO and its experimental design on Microbiome of plant species">
-    <meta itemprop="datePublished" content="May 01, 2020">
+    <meta itemprop="headline" content="Detecting Flares using TESS Mission’s Photometric Data of M-Dwarfs">
+    <meta itemprop="description" content="A Timeseries Model with (quasi-periodic) Gaussian Process Trend and Hidden Markov Firing">
+    <meta itemprop="datePublished" content="June 17, 2021">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">Network Reconstruction of Plant Microbe Community and Experimental Design
+          <h1 class="page__title" itemprop="headline">Detecting Flares using TESS Mission’s Photometric Data of M-Dwarfs
 </h1>
           
         
 
-          <p>Advised by: <i>Claudia Sol&iacute;s-Lemus, University of Wisconsin-Madison</i>, 2020 </p>
+          <p>Advised by: <i>Vianey Leos-Barajas and Gwendolyn Eadie, University of Toronto</i>, 2021 </p>
 
 
         
@@ -283,49 +283,33 @@
       
 
       <section class="page__content" itemprop="text">
-        <p><img src="http://YunyiShen.github.io/files/Research_figs/CARLASSO/CARLASSO.png" alt="" /></p>
+        <h2 id="background">Background</h2>
 
-<h2 id="background">Background</h2>
+<p>Our sun sometimes has sudden flash of increased brightness called <a href="https://en.wikipedia.org/wiki/Solar_flare">Solar Flares</a>. This happens also in much smaller stars called <a href="https://en.wikipedia.org/wiki/Red_dwarf">M-dwarfs</a>, which have 0.1-0.3 mass of our sun and may are orbited by exoplanets. We would really want to know the effect of flares to those planets but before that, we have to be able to find flares.</p>
 
-<p>Species formed complex networks. It is often time hard to direct measure the network and interactions between species. It is especially true that for taxa of microbe that cannot be cultured (alone) in the lab.</p>
+<p><a href="https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite">Transiting Exoplanet Survey Satellite</a> (TESS) mission offered us a great opportunity to study flear events though the primary mission of TESS is to search for exoplanet. It collects thousands star’s brigntness change so that we could identify the flares of those stars from the time series.</p>
 
-<p>We might be able to heat the environment, applying some anti-biotics, and other sorts of indirect manipulations. We can observe the abundance/composition/presence of species under such manipulation. From there, how can we decode the interactions?</p>
+<p>There are two main differences between an exoplant transit and flare,</p>
+<ul>
+  <li>Transit is a drop of brightness while flare is a sudden increase of brightness</li>
+  <li>Transits has clear periodicity while flares happens effectively at random</li>
+</ul>
 
-<p>Take a close look to the question, it can be understand as a graphical selection problem, i.e. there exist two sets of nodes, the environment (predictors) and the species (nodes) and some edges encode the conditional (in)dependence. There are directed edges from environments to species and some undirected edges between species. Let’s assume the graph is sparse, which is common in a lot of practice. The question reduce to how we might find such a graph?</p>
+<p>We can still argue the first difference does not prevent us from using method in searching exoplant (by taking an negative). However, the second problem is more severe because we cannot make use of periodic functions. Beside that, star’s brightness has its own period we have to distinguish. To “detrend” the data, people make use of a special kind of quasi-periodic Gaussian process called <em>Celerite</em> which has clear physical motivation.</p>
 
-<h2 id="the-model">The model</h2>
+<p>Then one can use 3-sigma rule after the detrending to find flares, whose sensitivity and specificity can both be bad since 1) detrending process can fit small flares that reduce 2) there can have sudden noise. So we want a better method.</p>
 
-<p>Alright, we can further simplify the problem to Normal case, which is tractable and can act as a “core” for other type of responses. The model that account for conditional dependence between environment and species? Conditional Auto-Regression (CAR) model is a natural choice. Our goal was to study the sparse regression of such model. We took a Bayesian approach, view the LASSO penalty as LASSO prior, then we can derive a Gibbs sampler to sample from the posterior efficiently…</p>
+<h2 id="method">Method</h2>
 
-<h2 id="some-results">Some results</h2>
+<p>We still want to detrend the time series while propagate the uncertainty, and account for the random nature of flares. We built a Hidden Markov model with three state on top of a Celerite, namely <strong>Q</strong>uiet, <strong>F</strong>iring and <strong>D</strong>ecay (QFD model) to model the flare, while in <strong>Q</strong> state, the detrended brightness follow normal distribution; in <strong>F</strong> state, the brightness follow a exponentially modified normal random walk from the previous brightness; and in <strong>D</strong> state, the brightness follwed a AR(1) with slope less than 1 of the previous state this impose an on average exponential decay. Toghther with Celerite as a hidden trend variable, we have a model that detrend and detect flares simultaneously.</p>
 
-<h3 id="speed">Speed</h3>
+<p>The model was implemented in stan, and hosted on <a href="https://github.com/YunyiShen/AstroHMMs">Github</a>. It is still under development.</p>
 
-<p>The model (CAR-LASSO) is quite fast, we did experiment with a i7 desktop with windows 7 OS:</p>
+<h2 id="results">Results</h2>
 
-<p><img src="http://YunyiShen.github.io/files/Research_figs/CARLASSO/scaling_test.png" alt="" /></p>
+<p>We show one result detection from star TIC 131799991</p>
 
-<h3 id="accurancy">Accurancy</h3>
-
-<p>We compared it with several other models for a 30-nodes 10 or 5 predictors system on 6 different graph structure..</p>
-
-<h4 id="steins-loss-of-the-graph-within-nodes">Stein’s Loss of the graph within nodes</h4>
-<p><img src="http://YunyiShen.github.io/files/Research_figs/CARLASSO/Stein_k30.jpg" alt="Stein's Loss of the graph within nodes" /></p>
-
-<h4 id="log-l2-loss-of-the-edges-between-predictors-and-nodes">log L2 Loss of the edges between predictors and nodes</h4>
-<p><img src="http://YunyiShen.github.io/files/Research_figs/CARLASSO/beta_k30.jpg" alt="log L2 Loss of the edges between predictors and nodes" /></p>
-
-<h3 id="real-data-example">Real data example</h3>
-
-<p>We applied the model to two real world datasets. One from <a href="https://www.mg-rast.org/mgmain.html?mgpage=project&amp;project=mgp154">human gut</a>, the other from <a href="https://www.mg-rast.org/mgmain.html?mgpage=project&amp;project=mgp2592">soil</a>. We mapped the conditional auto regressive coefficient as a edge network, and evaluated the alpha centrality of each nodes</p>
-
-<h4 id="human-gut">Human gut</h4>
-<p><img src="http://YunyiShen.github.io/files/Research_figs/CARLASSO/humangut.jpg" alt="" /></p>
-
-<h4 id="soil">Soil</h4>
-<p><img src="http://YunyiShen.github.io/files/Research_figs/CARLASSO/soil.jpg" alt="" /></p>
-
-<p>Get the <a href="https://arxiv.org/abs/2012.08397">preprint</a></p>
+<p><img src="http://YunyiShen.github.io/files/Research_figs/FlareDet/det.png" alt="" /></p>
 
 
         
@@ -347,11 +331,11 @@
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://YunyiShen.github.io/research/2020-Microbe" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://YunyiShen.github.io/research/2021-Flare" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YunyiShen.github.io/research/2020-Microbe" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YunyiShen.github.io/research/2021-Flare" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YunyiShen.github.io/research/2020-Microbe" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YunyiShen.github.io/research/2021-Flare" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -359,12 +343,11 @@
 
   <nav class="pagination">
     
-      <a href="https://YunyiShen.github.io/research/2019-IsingOccu" class="pagination--pager" title="Spatial Explicit Multi-species Occupancy Modeling
+      <a href="https://YunyiShen.github.io/research/2020-Microbe" class="pagination--pager" title="Network Reconstruction of Plant Microbe Community and Experimental Design
 ">Previous</a>
     
     
-      <a href="https://YunyiShen.github.io/research/2021-Flare" class="pagination--pager" title="Detecting Flares using TESS Mission’s Photometric Data of M-Dwarfs
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
