@@ -285,7 +285,7 @@
       <section class="page__content" itemprop="text">
         <h2 id="background">Background</h2>
 
-<p>Our sun sometimes has sudden flash of increased brightness called <a href="https://en.wikipedia.org/wiki/Solar_flare">Solar Flares</a>. This happens also in much smaller stars called <a href="https://en.wikipedia.org/wiki/Red_dwarf">M-dwarfs</a>, which have 0.1-0.3 mass of our sun and may are orbited by exoplanets. We would really want to know the effect of flares to those planets but before that, we have to be able to find flares.</p>
+<p>Our sun sometimes has sudden flash of increased brightness called <a href="https://en.wikipedia.org/wiki/Solar_flare">Solar Flares</a>. This happens also in much smaller stars called <a href="https://en.wikipedia.org/wiki/Red_dwarf">M-dwarfs</a>, which have 0.1-0.3 mass of our sun and many are orbited by exoplanets. We would really want to know the effect of flares to those planets but before that, we have to be able to find flares.</p>
 
 <p><a href="https://en.wikipedia.org/wiki/Transiting_Exoplanet_Survey_Satellite">Transiting Exoplanet Survey Satellite</a> (TESS) mission offered us a great opportunity to study flear events though the primary mission of TESS is to search for exoplanet. It collects thousands star’s brigntness change so that we could identify the flares of those stars from the time series.</p>
 
@@ -295,7 +295,7 @@
   <li>Transits has clear periodicity while flares happens effectively at random</li>
 </ul>
 
-<p>We can still argue the first difference does not prevent us from using method in searching exoplant (by taking an negative). However, the second problem is more severe because we cannot make use of periodic functions. Beside that, star’s brightness has its own period we have to distinguish. To “detrend” the data, people make use of a special kind of quasi-periodic Gaussian process called <em>Celerite</em> which has clear physical motivation.</p>
+<p>We can still argue the first difference does not prevent us from using method in searching exoplant (by taking negative). However, the second problem is more severe because we cannot make use of periodic functions. Beside that, star’s brightness has its own period we have to distinguish. To “detrend” the data, people make use of a special kind of quasi-periodic Gaussian process called <em>Celerite</em> which has clear physical motivation.</p>
 
 <p>Then one can use 3-sigma rule after the detrending to find flares, whose sensitivity and specificity can both be bad since 1) detrending process can fit small flares that reduce 2) there can have sudden noise. So we want a better method.</p>
 
