@@ -3,11 +3,7 @@ layout: archive
 title: "Gallery"
 permalink: /gallery/
 author_profile: true
+gallery_path: "/files/Photos"
 ---
 
-{% include base_path %}
-
-
-{% for post in site.gallery %}
-  {% include archive-single.html %}
-{% endfor %}
+{% include gallery.html gallery_path=page.gallery_path %}
