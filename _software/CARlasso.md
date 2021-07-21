@@ -1,7 +1,7 @@
 ---
 title: "CARlasso"
 collection: software
-excerpt: "Conditional AutoRegressive LASSO and extensions"
+excerpt: "Conditional Autoregressive LASSO and extensions"
 type: "Package"
 permalink: /software/CARlasso
 venue: "Github"
@@ -12,9 +12,16 @@ R implementation of
 
 Shen, Yunyi, and Claudia Solis-Lemus. "Bayesian Conditional Auto-Regressive LASSO Models to Learn Sparse Networks with Predictors." arXiv preprint [arXiv:2012.08397](https://arxiv.org/abs/2012.08397) (2020).
 
-Documentations can be found: [https://yunyishen.ml/CAR-LASSO/dev/](https://yunyishen.ml/CAR-LASSO/dev/)
+Documentations can be found: [https://yunyishen.ml/CAR-LASSO/](https://yunyishen.ml/CAR-LASSO/)
 
-The package is not yet on CRAN, to install it, use:
+The package is on CRAN, to install it, use:
+
+```r
+install.packages("CARlasso")
+```
+
+To install from Github: 
+
 ```r
 devtools::install_github("YunyiShen/CAR-LASSO")
 ```
