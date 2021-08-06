@@ -4,7 +4,7 @@ collection: software
 excerpt: "Conditional Autoregressive LASSO and extensions"
 type: "Package"
 permalink: /software/CARlasso
-venue: "Github"
+venue: "CRAN"
 date: 2021-02-24
 ---
 

@@ -4,8 +4,8 @@ collection: software
 excerpt: "Collection of robust (sparse) precision matrix estimators"
 type: "Package"
 permalink: /software/robustcov
-venue: "Github"
-date: 2021-02-24
+venue: "CRAN"
+date: 2021-08-04
 ---
 
 # robustcov
