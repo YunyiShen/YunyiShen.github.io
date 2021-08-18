@@ -16,29 +16,6 @@ Education
 * M.S. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
 * B.S. in Integrated Science/Physical Biology, Peking University, 2014-2018
 
-Research experience
-======
-
-* 2020-2021: Research Assistant
-  * UW-Madison, Wisconsin Institute for Discovery
-  * Duties included: Network Reconstruction of Plant Microbes
-  * Supervisor: Professor Claudia Sol&iacute;s-Lemus
-
-* 2019-2020: Research Assistant
-  * UW-Madison, Department of Forest and Wildlife Ecology
-  * Duties included: Community Ecology of Carnivore
-  * Supervisor: Professor Tim Van Deelen
-
-Skills
-======
-* Applied Statistics
-* Programming Languages
-  * R
-  * C++
-  * Matlab
-  * Python
-* Linux
-
 Publications
 ======
 Preprints
@@ -61,6 +38,31 @@ Talks
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
+
+Work experience
+======
+
+* 2020-2021: Research Assistant
+  * UW-Madison, Wisconsin Institute for Discovery
+  * Duties included: Network Reconstruction of Plant Microbes
+  * Supervisor: Professor Claudia Sol&iacute;s-Lemus
+
+* 2019-2020: Research Assistant
+  * UW-Madison, Department of Forest and Wildlife Ecology
+  * Duties included: Community Ecology of Carnivore
+  * Supervisor: Professor Tim Van Deelen
+
+Skills
+======
+* Applied Statistics
+* Programming Languages
+  * R
+  * C++
+  * Matlab
+  * Python
+* Linux
+
+
 
 Teaching
 ======
