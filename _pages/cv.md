@@ -50,6 +50,12 @@ Journal Articals
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+Software
+======
+  <ul>{% for post in site.software reversed %}
+    {% include archive-single-software-cv.html %}
+  {% endfor %}</ul>
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
