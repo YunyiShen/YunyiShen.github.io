@@ -12,11 +12,11 @@ redirect_from:
 Education
 ======
 
-* M.S. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
 * M.S. in Statistics, University of Wisconsin-Madison, 2018-2021
+* M.S. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
 * B.S. in Integrated Science/Physical Biology, Peking University, 2014-2018
 
-Work experience
+Research experience
 ======
 
 * 2020-2021: Research Assistant

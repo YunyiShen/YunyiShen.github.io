@@ -1,7 +1,7 @@
 ---
 title: "Evaluating the effectiveness of functional zones for black muntjac (Muntiacus crinifrons) protection in qianjiangyuan national park pilot site"
 collection: publications
-permalink: /publication/2019-muntjac
+permalink: /publications/2019-muntjac
 excerpt: 'Black Muntjc distribution in QJY nation park'
 date: 2019-01-01
 venue: 'Biodiversity Science, 27(1).'
