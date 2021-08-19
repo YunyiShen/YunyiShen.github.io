@@ -4,6 +4,8 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
+<small>*: corresponding author</small>
+
 Preprints
   <ul>{% for post in site.preprints reversed %}
     {% include archive-single-cv.html %}

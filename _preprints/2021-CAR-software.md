@@ -6,7 +6,7 @@ excerpt: 'Conditional Auto-Regressive LASSO'
 date: 2021-8-10
 venue: 'arXiv (2020), under review of Bioinformatics'
 paperurl: 'https://arxiv.org/abs/2107.13763'
-citation: 'Shen, Yunyi, and Solis-Lemus, Claudia. "CARlasso: An R package for the estimation of sparse microbial networks with predictors." arXiv (2020), under review of Bioinformatics.'
+citation: '<b>Shen, Yunyi</b>, and Solis-Lemus, Claudia. "CARlasso: An R package for the estimation of sparse microbial networks with predictors." arXiv (2020), under review of Bioinformatics.'
 ---
 This paper is rather a software note on our R package CARlasso. 
 
