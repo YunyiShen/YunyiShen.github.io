@@ -10,7 +10,7 @@ Preprints
   <ul>{% for post in site.preprints reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-Journal Articals
+Journal Articles
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
