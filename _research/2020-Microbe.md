@@ -1,5 +1,5 @@
 ---
-title: "Network Reconstruction of Plant Microbe Community and Experimental Design "
+title: "LASSO method for Conditional Autoregressions and Experimental design"
 collection: research
 permalink: /research/2020-Microbe
 excerpt: 'Conditional Auto-Regressive LASSO and its experimental design on Microbiome of plant species'

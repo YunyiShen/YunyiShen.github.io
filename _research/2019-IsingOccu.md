@@ -47,4 +47,4 @@ Similar to the FM system, dispersal/environment was also driving the CF system, 
 ![](http://YunyiShen.github.io/files/Research_figs/APIS/negH_CF_env.jpg)
 
 
-Get the [preprint](https://www.biorxiv.org/content/10.1101/2020.08.05.238774v2.abstract)
+Get the [preprint](https://www.biorxiv.org/content/10.1101/2020.08.05.238774v4.abstract), the paper was accepted by *Ecological Modelling*. 
