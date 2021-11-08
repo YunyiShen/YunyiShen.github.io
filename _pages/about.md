@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am an incoming PhD student in the Department of Statistical Sciences at the [University of Toronto](https://www.utoronto.ca/). But I am currently in a gap year physically located in Madison, WI. I earned my MSc degrees in Statistics and Wildlife Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Physical Biology at [Peking University](http://english.pku.edu.cn). 
+I am currently in a gap year physically located in Madison, WI. I earned my MSc degrees in Statistics and Wildlife Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Physical Biology at [Peking University](http://english.pku.edu.cn). 
 
 I am generally interested in statistics of non-human objects, namely ecology and astronomy. For me as a statistician, I study probablistic graphical models (PGMs), specificly chain graph models and hidden Markov models (HMMs) as well as scalable Bayesian methods. For me as an ecologist, I studied population and community ecology. I am also interested in time series analysis in astronomy and worked on photometrical data analysis (stellar flare detection in particular). Several recent projects are 
 
