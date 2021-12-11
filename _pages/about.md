@@ -18,4 +18,4 @@ I am generally interested in statistics of non-human objects, namely ecology and
 
 
 
-I am a wildlife photographer and angler in my spare time. I am also an [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) fan. Recently finally finished [Evangelion](https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion) film and TV series of [JoJo](https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure). 
+I am a wildlife photographer and angler in my spare time. Partly due to my outdoor hobby I hold a technician class amateur radio license, my call sign is KD9TZJ. I am also an [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) fan. Recently finally finished [Evangelion](https://en.wikipedia.org/wiki/Neon_Genesis_Evangelion) film and TV series of [JoJo](https://en.wikipedia.org/wiki/JoJo%27s_Bizarre_Adventure). 
