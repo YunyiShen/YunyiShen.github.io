@@ -9,5 +9,5 @@ author_profile: true
 
 
 {% for post in site.software reversed %}
-  {% include archive-single-software.html %}
+  {% include archive-single-software-cv.html %}
 {% endfor %}
