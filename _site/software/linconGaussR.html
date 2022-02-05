@@ -305,7 +305,7 @@
 
 <p>This package was written as header-only, with all the sampling method/classes used in the <code class="language-plaintext highlighter-rouge">inst/include</code> directory. If you just wish to use the C++ API of this implementation, consider install this package, and add <code class="language-plaintext highlighter-rouge">linconGaussR</code> (for sure <code class="language-plaintext highlighter-rouge">RcppArmadillo</code> and <code class="language-plaintext highlighter-rouge">Rcpp</code>) to your <code class="language-plaintext highlighter-rouge">LinkingTo</code> field of the description. The main sampling function is <code class="language-plaintext highlighter-rouge">linconGaussR::linconGauss_cpp</code>. Below is a sample implementation calling this method only:</p>
 
-<p>```cpp
+<p>```c
 // [[Rcpp::depends(RcppArmadillo)]]
 #include <linconGaussR.h>// we call RcppArmadillo</linconGaussR.h></p>
 
