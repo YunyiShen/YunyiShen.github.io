@@ -19,7 +19,7 @@
 
 
 
-<title>robustcov - Yunyi Shen</title>
+<title>linconGaussR - Yunyi Shen</title>
 
 
 
@@ -29,15 +29,15 @@
 
 <meta property="og:locale" content="en-US">
 <meta property="og:site_name" content="Yunyi Shen">
-<meta property="og:title" content="robustcov">
+<meta property="og:title" content="linconGaussR">
 
 
-  <link rel="canonical" href="https://YunyiShen.github.io/software/robustcov">
-  <meta property="og:url" content="https://YunyiShen.github.io/software/robustcov">
+  <link rel="canonical" href="https://YunyiShen.github.io/software/linconGaussR">
+  <meta property="og:url" content="https://YunyiShen.github.io/software/linconGaussR">
 
 
 
-  <meta property="og:description" content="Collection of robust (sparse) precision matrix estimators">
+  <meta property="og:description" content="Sampling multivariate Gaussian under linear constraints">
 
 
 
@@ -52,7 +52,7 @@
 
 
   <meta property="og:type" content="article">
-  <meta property="article:published_time" content="2021-08-04T00:00:00-05:00">
+  <meta property="article:published_time" content="2021-10-01T00:00:00-05:00">
 
 
 
@@ -263,15 +263,15 @@
 
 
   <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
-    <meta itemprop="headline" content="robustcov">
-    <meta itemprop="description" content="Collection of robust (sparse) precision matrix estimators">
-    <meta itemprop="datePublished" content="August 04, 2021">
+    <meta itemprop="headline" content="linconGaussR">
+    <meta itemprop="description" content="Sampling multivariate Gaussian under linear constraints">
+    <meta itemprop="datePublished" content="October 01, 2021">
     
 
     <div class="page__inner-wrap">
       
         <header>
-          <h1 class="page__title" itemprop="headline">robustcov
+          <h1 class="page__title" itemprop="headline">linconGaussR
 </h1>
           
         
@@ -287,40 +287,44 @@
       
 
       <section class="page__content" itemprop="text">
-        <h1 id="robustcov">robustcov</h1>
-<p>Robust covariance and precision matrix estimators. Based on the review of P.-L. Loh and X. L. Tan. (2018)</p>
+        <p>Header only R implementation of</p>
 
-<p>To install:</p>
+<p>Gessner, Alexandra, Oindrila Kanjilal, and Philipp Hennig. “Integrals over Gaussians under linear domain constraints.” International Conference on Artificial Intelligence and Statistics. PMLR, 2020.<a href="https://proceedings.mlr.press/v108/gessner20a.html">download</a>.</p>
 
-<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s2">"robustcov"</span><span class="p">)</span><span class="w">
-</span></code></pre></div></div>
-<p>or from GitHub:</p>
+<p>The original Python implementation can be found <a href="https://github.com/alpiges/LinConGauss">here</a></p>
 
-<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">devtools</span><span class="o">::</span><span class="n">install_github</span><span class="p">(</span><span class="s2">"YunyiShen/robustcov"</span><span class="p">)</span><span class="w">
-</span></code></pre></div></div>
+<p>The package is on CRAN, to install it, use:</p>
 
-<p>There are in total 4 robust covariance and 3 correlation estimation implemented, namely:</p>
-
-<ul>
-  <li><code class="language-plaintext highlighter-rouge">corSpearman</code>: Spearman correlation</li>
-  <li><code class="language-plaintext highlighter-rouge">corKendall</code>: Kendall’s tau</li>
-  <li><code class="language-plaintext highlighter-rouge">corQuadrant</code>: Quadrant correlation coefficients</li>
-  <li><code class="language-plaintext highlighter-rouge">covGK</code>: Gnanadesikan-Kettenring estimator by Tarr et al. (2015) and Oellerer and Croux (2015)</li>
-  <li><code class="language-plaintext highlighter-rouge">covSpearmanU</code>: SpearmanU covariance estimator by P.-L. Loh and X. L. Tan. (2018), The pairwise covariance matrix estimator proposed in Oellerer
-and Croux (2015), where the MAD estimator is combined with Spearman’s
-rho</li>
-  <li><code class="language-plaintext highlighter-rouge">covOGK</code>: Orthogonalized Gnanadesikan-Kettenring (OGK) estimator by Maronna, R. A. and Zamar, R. H. (2002)</li>
-  <li><code class="language-plaintext highlighter-rouge">covNPD</code>: Nearest Positive (semi)-Definite projection of the pairwise covariance matrix estimator considered in Tarr et al. (2015).</li>
-</ul>
-
-<p>P.-L. Loh and X. L. Tan. (2018) then used these robust estimates in Graphical Lasso (package <code class="language-plaintext highlighter-rouge">glasso</code>) or Quadratic Approximation (package <code class="language-plaintext highlighter-rouge">QUIC</code>) to obtain sparse solutions to precision matrix</p>
-
-<p>With <code class="language-plaintext highlighter-rouge">glasso</code>, a function <code class="language-plaintext highlighter-rouge">robglasso</code> stand for robust graphical LASSO is implemented. It has build in cross validation described in P.-L. Loh and X. L. Tan. (2018), for instance, to use the method with cross validation:</p>
-
-<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">robglasso</span><span class="p">(</span><span class="n">data</span><span class="o">=</span><span class="n">matrix</span><span class="p">(</span><span class="n">rnorm</span><span class="p">(</span><span class="m">100</span><span class="p">),</span><span class="m">20</span><span class="p">,</span><span class="m">5</span><span class="p">),</span><span class="w"> </span><span class="n">covest</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">cov</span><span class="p">,</span><span class="n">CV</span><span class="o">=</span><span class="kc">TRUE</span><span class="p">)</span><span class="w">
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">install.packages</span><span class="p">(</span><span class="s2">"linconGaussR"</span><span class="p">)</span><span class="w">
 </span></code></pre></div></div>
 
-<p>Where <code class="language-plaintext highlighter-rouge">data</code> should be a matrix and <code class="language-plaintext highlighter-rouge">covest</code> should be a function that estimate the covariance e.g. anyone mentioned above. The result list contains everything from <code class="language-plaintext highlighter-rouge">glasso</code> output with the optimal tuning parameter found by cross validation. One can also decide fold by setting <code class="language-plaintext highlighter-rouge">fold</code> in <code class="language-plaintext highlighter-rouge">robglasso</code>. For more details see <code class="language-plaintext highlighter-rouge">?robglasso</code>.</p>
+<p>To install from Github:</p>
+
+<div class="language-r highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">devtools</span><span class="o">::</span><span class="n">install_github</span><span class="p">(</span><span class="s2">"YunyiShen/linconGaussR"</span><span class="p">)</span><span class="w">
+</span></code></pre></div></div>
+
+<p>This package was written as header-only, with all the sampling method/classes used in the <code class="language-plaintext highlighter-rouge">inst/include</code> directory. If you just wish to use the C++ API of this implementation, consider install this package, and add <code class="language-plaintext highlighter-rouge">linconGaussR</code> (for sure <code class="language-plaintext highlighter-rouge">RcppArmadillo</code> and <code class="language-plaintext highlighter-rouge">Rcpp</code>) to your <code class="language-plaintext highlighter-rouge">LinkingTo</code> field of the description. The main sampling function is <code class="language-plaintext highlighter-rouge">linconGaussR::linconGauss_cpp</code>. Below is a sample implementation calling this method only:</p>
+
+<p>```cpp
+// [[Rcpp::depends(RcppArmadillo)]]
+#include <linconGaussR.h>// we call RcppArmadillo</linconGaussR.h></p>
+
+<p>using namespace Rcpp;
+using namespace arma;
+using namespace std;
+using namespace linconGaussR;</p>
+
+<p>//[[Rcpp::export]]
+arma::mat linconGauss_cpp(int n, // sample size
+                            arma::mat A, // linear constraint
+                            arma::vec b, // offset of the linear constraint, so that Ax+b&gt;0
+                            arma::mat Sigma, // covariance
+                            arma::vec mu, // mean
+                            arma::vec x_init, // an initial value, necessary
+                            bool intersection=true, // whether to sample from the intersection (otherwise from the union)
+                            int nskp=5){ // number of sample to skip during iterations
+    return linconGaussR::linconGauss_cpp(n,A,b,Sigma,mu,x_init,intersection,nskp);
+}</p>
 
         
       </section>
@@ -341,11 +345,11 @@ rho</li>
     <h4 class="page__share-title">Share on</h4>
   
 
-  <a href="https://twitter.com/intent/tweet?text=https://YunyiShen.github.io/software/robustcov" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+  <a href="https://twitter.com/intent/tweet?text=https://YunyiShen.github.io/software/linconGaussR" class="btn btn--twitter" title="Share on Twitter"><i class="fab fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
 
-  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YunyiShen.github.io/software/robustcov" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https://YunyiShen.github.io/software/linconGaussR" class="btn btn--facebook" title="Share on Facebook"><i class="fab fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
 
-  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YunyiShen.github.io/software/robustcov" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https://YunyiShen.github.io/software/linconGaussR" class="btn btn--linkedin" title="Share on LinkedIn"><i class="fab fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
 </section>
 
       
@@ -353,12 +357,11 @@ rho</li>
 
   <nav class="pagination">
     
-      <a href="https://YunyiShen.github.io/software/CARlasso" class="pagination--pager" title="CARlasso
+      <a href="https://YunyiShen.github.io/software/robustcov" class="pagination--pager" title="robustcov
 ">Previous</a>
     
     
-      <a href="https://YunyiShen.github.io/software/linconGaussR" class="pagination--pager" title="linconGaussR
-">Next</a>
+      <a href="#" class="pagination--pager disabled">Next</a>
     
   </nav>
 
