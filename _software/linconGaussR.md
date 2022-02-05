@@ -29,7 +29,7 @@ devtools::install_github("YunyiShen/linconGaussR")
 
 This package was written as header-only, with all the sampling method/classes used in the `inst/include` directory. If you just wish to use the C++ API of this implementation, consider install this package, and add `linconGaussR` (for sure `RcppArmadillo` and `Rcpp`) to your `LinkingTo` field of the description. The main sampling function is `linconGaussR::linconGauss_cpp`. Below is a sample implementation calling this method only:
 
-```c
+```cpp
 // [[Rcpp::depends(RcppArmadillo)]]
 #include <linconGaussR.h>// we call RcppArmadillo
 
@@ -50,3 +50,4 @@ arma::mat linconGauss_cpp(int n, // sample size
                             int nskp=5){ // number of sample to skip during iterations
     return linconGaussR::linconGauss_cpp(n,A,b,Sigma,mu,x_init,intersection,nskp);
 }
+```

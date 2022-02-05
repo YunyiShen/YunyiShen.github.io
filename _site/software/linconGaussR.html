@@ -305,26 +305,27 @@
 
 <p>This package was written as header-only, with all the sampling method/classes used in the <code class="language-plaintext highlighter-rouge">inst/include</code> directory. If you just wish to use the C++ API of this implementation, consider install this package, and add <code class="language-plaintext highlighter-rouge">linconGaussR</code> (for sure <code class="language-plaintext highlighter-rouge">RcppArmadillo</code> and <code class="language-plaintext highlighter-rouge">Rcpp</code>) to your <code class="language-plaintext highlighter-rouge">LinkingTo</code> field of the description. The main sampling function is <code class="language-plaintext highlighter-rouge">linconGaussR::linconGauss_cpp</code>. Below is a sample implementation calling this method only:</p>
 
-<p>```c
-// [[Rcpp::depends(RcppArmadillo)]]
-#include <linconGaussR.h>// we call RcppArmadillo</linconGaussR.h></p>
+<div class="language-cpp highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// [[Rcpp::depends(RcppArmadillo)]]</span>
+<span class="cp">#include &lt;linconGaussR.h&gt;// we call RcppArmadillo
+</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">Rcpp</span><span class="p">;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">arma</span><span class="p">;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">std</span><span class="p">;</span>
+<span class="k">using</span> <span class="k">namespace</span> <span class="n">linconGaussR</span><span class="p">;</span>
 
-<p>using namespace Rcpp;
-using namespace arma;
-using namespace std;
-using namespace linconGaussR;</p>
 
-<p>//[[Rcpp::export]]
-arma::mat linconGauss_cpp(int n, // sample size
-                            arma::mat A, // linear constraint
-                            arma::vec b, // offset of the linear constraint, so that Ax+b&gt;0
-                            arma::mat Sigma, // covariance
-                            arma::vec mu, // mean
-                            arma::vec x_init, // an initial value, necessary
-                            bool intersection=true, // whether to sample from the intersection (otherwise from the union)
-                            int nskp=5){ // number of sample to skip during iterations
-    return linconGaussR::linconGauss_cpp(n,A,b,Sigma,mu,x_init,intersection,nskp);
-}</p>
+<span class="c1">//[[Rcpp::export]]</span>
+<span class="n">arma</span><span class="o">::</span><span class="n">mat</span> <span class="nf">linconGauss_cpp</span><span class="p">(</span><span class="kt">int</span> <span class="n">n</span><span class="p">,</span> <span class="c1">// sample size</span>
+                            <span class="n">arma</span><span class="o">::</span><span class="n">mat</span> <span class="n">A</span><span class="p">,</span> <span class="c1">// linear constraint</span>
+                            <span class="n">arma</span><span class="o">::</span><span class="n">vec</span> <span class="n">b</span><span class="p">,</span> <span class="c1">// offset of the linear constraint, so that Ax+b&gt;0</span>
+                            <span class="n">arma</span><span class="o">::</span><span class="n">mat</span> <span class="n">Sigma</span><span class="p">,</span> <span class="c1">// covariance</span>
+                            <span class="n">arma</span><span class="o">::</span><span class="n">vec</span> <span class="n">mu</span><span class="p">,</span> <span class="c1">// mean</span>
+                            <span class="n">arma</span><span class="o">::</span><span class="n">vec</span> <span class="n">x_init</span><span class="p">,</span> <span class="c1">// an initial value, necessary</span>
+                            <span class="kt">bool</span> <span class="n">intersection</span><span class="o">=</span><span class="nb">true</span><span class="p">,</span> <span class="c1">// whether to sample from the intersection (otherwise from the union)</span>
+                            <span class="kt">int</span> <span class="n">nskp</span><span class="o">=</span><span class="mi">5</span><span class="p">){</span> <span class="c1">// number of sample to skip during iterations</span>
+    <span class="k">return</span> <span class="n">linconGaussR</span><span class="o">::</span><span class="n">linconGauss_cpp</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">A</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">Sigma</span><span class="p">,</span><span class="n">mu</span><span class="p">,</span><span class="n">x_init</span><span class="p">,</span><span class="n">intersection</span><span class="p">,</span><span class="n">nskp</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
         
       </section>
