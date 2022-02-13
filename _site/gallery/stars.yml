@@ -1,0 +1,17 @@
+picture_path: star
+preview:
+  filename: milkyway
+  original: milkyway.jpg
+  #sizes:
+  #- VS-2012-5948-4242x2828.jpg
+  #- VS-2012-5948-2121x1414.jpg
+  #- VS-2012-5948-2999x1999.jpg
+  thumbnail: milkyway.jpg
+pictures:
+- filename: Neowise
+  original: Neowise.jpg
+  #sizes:
+  #- VS-2012-6013-4242x2828.jpg
+  #- VS-2012-6013-2121x1414.jpg
+  #- VS-2012-6013-2999x1999.jpg
+  thumbnail: milkyway.jpg
