@@ -271,7 +271,7 @@ defaults:
       path: ""
       type: gallery
     values:
-      layout: single
+      layout: gallery_layout
       author_profile: true
       share: true
       comment: true

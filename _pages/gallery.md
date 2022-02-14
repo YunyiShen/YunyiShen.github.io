@@ -6,4 +6,4 @@ author_profile: true
 gallery_path: "gallery"
 ---
 
-{% include gallery-layout.html gallery_path=page.gallery_path %}
+{% include gallery-item.html gallery_path=page.gallery_path %}

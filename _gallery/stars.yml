@@ -6,10 +6,12 @@ preview:
   #- VS-2012-5948-4242x2828.jpg
   #- VS-2012-5948-2121x1414.jpg
   #- VS-2012-5948-2999x1999.jpg
+  title: milkyway 
   thumbnail: milkyway.jpg
 pictures:
 - filename: Neowise
   original: Neowise.jpg
+  title: Neowise
   #sizes:
   #- VS-2012-6013-4242x2828.jpg
   #- VS-2012-6013-2121x1414.jpg
