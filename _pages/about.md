@@ -10,7 +10,7 @@ redirect_from:
 
 I will move to the EECS department at [MIT](https://web.mit.edu/) this comming summer as a PhD student, but I am currently in a gap year at UW-Madison. I earned my MSc degrees in Statistics and Wildlife Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Physical Biology at [Peking University](http://english.pku.edu.cn). 
 
-I am generally interested in statistics of non-human objects, namely ecology and astronomy. For me as a statistician, I study variable and graphical selection, Bayesian nonparametrics, exchangability and scalable Bayesian computing. For me as an ecologist, I study community ecology, mainly species coexistence (graphical model!) and and neutral theory (exchangability!). I am also interested in time series analysis in astronomy and worked on photometrical data analysis (stellar flare detection in particular). Several recent projects are 
+I am generally interested in statistics of non-human objects, namely ecology and astronomy. For me as a statistician, I study variable and graphical selection, Bayesian nonparametrics, exchangability and scalable Bayesian computing. For me as an ecologist, I study community ecology, mainly species coexistence (graphical model!) and neutral theory (exchangability!). I am also interested in time series analysis in astronomy and worked on photometrical data analysis (stellar flare detection in particular). Several recent projects are 
 
 - Graphical selection of Gaussian chain graph models using Bayesian LASSO/Spike-and-Slab LASSO methods, their theory, interpretation and corresponding experimental design; 
 - Stellar flare detection using Gaussian process combined with HMMs; 
