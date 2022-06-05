@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD student in the EECS department at [MIT](https://web.mit.edu/) affiliated with LIDS officially start in June 2022. I earned my MSc degrees in Statistics and Wildlife Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Physical Biology at [Peking University](http://english.pku.edu.cn). 
+I am a PhD student in the EECS department at [MIT](https://web.mit.edu/) affiliated with LIDS. I earned my MSc degrees in Statistics and Wildlife Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Physical Biology at [Peking University](http://english.pku.edu.cn). 
 
-I am generally interested in statistics of biology, ecology and astronomy. For me as a statistician, I study variable and graphical selection, Bayesian nonparametrics, exchangability and scalable Bayesian computing. For me as an ecologist, I study community ecology. I am also interested in time series analysis in astronomy and worked on photometrical data analysis (stellar flare detection in particular). 
+I am generally interested in statistics of biology, ecology and astronomy. For me as a statistician, I study variable and graphical selection, Bayesian nonparametrics, exchangability and scalable Bayesian computing. For me as an ecologist, I study community ecology. I am also interested in (and worked on) time series data collected by space telescopes (e.g. TESS, HST).  
 
 Several recent statistics projects are:
 
@@ -19,9 +19,10 @@ Several recent statistics projects are:
 
 Several recent (mostly collaborative) ecology projects are:
 
-- Population estimate of [snow leopard](https://en.wikipedia.org/wiki/Snow_leopard) and survey design with Bayesian non-parametrics;
+- Biodiversity/population survey design with Bayesian nonparametrics;
+- Population dymanics of WI wolves;
 - Understanding carnivore community in the [Apostle Island National Lakeshore](https://www.google.com/maps/place/Apostle+Islands/@47.0153533,-90.8540994,11z/data=!3m1!4b1!4m5!3m4!1s0x52a8f887c4797d43:0x8009ed773211222d!8m2!3d47.0027301!4d-90.6908353) in Wisconsin using Markov random field models with imperfect observations;
-- Demographic reconstruction of deer under intense management in Chincago.
+
 
 A recent astronomy project:
 
