@@ -14,13 +14,12 @@ I am generally interested in statistics of biology, ecology and astronomy. For m
 
 Several recent statistics projects are:
 
-- Bayesian nonparametrics for the experimental design of rare variant association analysis, beta process and its extensions;
+- Bayesian nonparametrics for the experimental design of rare variant association analysis, beta process and its extensions, multivariate random measures;
 - Graphical selection of Gaussian chain graph models using Bayesian LASSO/Spike-and-Slab LASSO methods, their theories, interpretations, corresponding experimental design, as well as applications in ecology and genetics;
 
 Several recent (mostly collaborative) ecology projects are:
 
-- Biodiversity/population survey design with Bayesian nonparametrics;
-- Population dymanics of WI wolves;
+- Population dynamics of WI wolves (*Canis lupus*); 
 - Understanding carnivore community in the [Apostle Island National Lakeshore](https://www.google.com/maps/place/Apostle+Islands/@47.0153533,-90.8540994,11z/data=!3m1!4b1!4m5!3m4!1s0x52a8f887c4797d43:0x8009ed773211222d!8m2!3d47.0027301!4d-90.6908353) in Wisconsin using Markov random field models with imperfect observations;
 
 
