@@ -15,7 +15,7 @@ I am generally interested in statistics for biodiversity at different levels. Fo
 Several recent statistics projects are:
 
 - Bayesian nonparametrics method predicting of shared variants across cancer types, Beta/Indian Buffet process and their multivariate extensions, multivariate random measures;
-- Graphical selection of Gaussian chain graph models using [Bayesian LASSO](https://arxiv.org/abs/2012.08397)/[Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) methods, their [theories](https://arxiv.org/abs/2209.04389), interpretations, corresponding [experimental design](https://arxiv.org/abs/2107.01306), as well as applications in ecology and genetics;
+- Graphical selection of Gaussian chain graph models using [Bayesian LASSO](https://arxiv.org/abs/2012.08397)/[Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) methods, their [theories](https://arxiv.org/abs/2209.04389), interpretations, corresponding [experimental design](https://arxiv.org/abs/2107.01306), scalable inferences, as well as applications in ecology and genetics;
 
 Several recent (mostly collaborative) ecology projects are:
 
