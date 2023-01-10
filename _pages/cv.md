@@ -34,6 +34,7 @@ Software
     {% include archive-single-software-cv.html %}
   {% endfor %}</ul>
 
+<!---
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -52,28 +53,25 @@ Work experience
   * UW-Madison, Department of Forest and Wildlife Ecology
   * Duties included: Community Ecology of Carnivore
   * Supervisor: Professor Tim Van Deelen
-
-Skills
-======
-* Applied Statistics
-* Programming Languages
-  * R
-  * C++
-  * Matlab
-  * Python
-* Linux
-
-
-
+  
 Teaching
 ======
   <ul>{% for post in site.teaching reversed%}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Consulting
+--->
+
+Skills
 ======
-* *in prep*
+* Statistics, applied machine learning
+* Programming Languages
+  * R, Python, C++, Matlab
+* Linux
+
+
+
+
 
 [CV in PDF format](https://YunyiShen.github.io/files/CV.pdf)
 
