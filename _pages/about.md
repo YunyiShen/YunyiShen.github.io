@@ -8,23 +8,23 @@ redirect_from:
   - /about.html
 ---
 
-I am a (statistics) PhD student in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). I earned my MSc degrees in Statistics and Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Physical Biology at [Peking University](http://english.pku.edu.cn). 
+I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). I earned my MSc degrees in Statistics and Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Biology at [Peking University](http://english.pku.edu.cn). 
 
-My research is mostly motivated by (bio)diversity at different levels. On the statistics side I study Bayesian nonparametrics, variable and graphical selection, scalable Bayesian computing and applied machine learning. I am particularly interested in the (mathematical) species sampling problem (some [classic](https://academic.oup.com/biomet/article-abstract/43/1-2/45/334874)) especially relaxation of the exchangability assumption. On the ecology side I study population and community ecology mostly for carnivores. I have some random interests including multimessenger astronomy, space telescopes (e.g. TESS, HST) and NLP for Chinese politics. 
+My research is mostly motivated by applications in ecology while focusing on structural learning, uncertainty quantification and robustness in modern, complex data structure and analysis procedures. On the statistics side I study Bayesian nonparametrics, variable and graphical selection, scalable Bayesian computing and applied machine learning. On the ecology side I study population and community ecology mostly for carnivores. I have some random interests including multimessenger astronomy, space telescopes (e.g. TESS, HST) and NLP for Chinese politics. 
 
 ## My research
-Several recent statistics projects are:
+Most recent statistics project:
 
-- [Bayesian nonparametrics method](https://openreview.net/forum?id=euBgC9yLeyl) predicting of shared variants across cancer types/populations, Beta/Indian Buffet process and their relaxations on exchangability, multivariate random measures;
-- Graphical selection of Gaussian chain graph models using [Bayesian LASSO](https://arxiv.org/abs/2012.08397)/[Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020)/Spike-and-Slab Group LASSO methods, [frequentist properties](https://arxiv.org/abs/2209.04389), interpretations, corresponding [experimental design](https://arxiv.org/abs/2107.01306), scalable inferences, as well as applications in community ecology (and genetics);
+- [Bayesian nonparametrics method](https://openreview.net/forum?id=euBgC9yLeyl) predicting of shared variants across cancer types/populations, species sampling problem with relaxations on exchangability, multivariate random measures;
+- Graphical selection of Gaussian chain graph models using [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) and its [frequentist properties](https://arxiv.org/abs/2209.04389);
 
-Recent (mostly collaborative) ecology projects are:
+Most recent ecology project:
 
-- Population and spatial expansion of gray wolves (*Canis lupus*) in Wisconsin/Jaguar (*Panthera onca*) in Costa Rica; 
+- Population and spatial expansion of gray wolves (*Canis lupus*) in Wisconsin and the Great Lake region; 
 
 A recent fun astronomy project:
 
-- Stellar flare detection using Gaussian process combined with HMMs (and trying some DL stuff here). 
+- Stellar flare detection using Gaussian process combined with HMMs. 
 
 ## More about me
 I am a wildlife photographer and angler in my spare time. I hold a technician class amateur radio license, bearing KD9TZJ call sign. I am also an [ACG](https://en.wikipedia.org/wiki/ACG_(subculture)) fan. 
