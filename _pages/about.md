@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). I earned my MSc degrees in Statistics and Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Biology at [Peking University](http://english.pku.edu.cn). 
+I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). I earned my MSc degrees in Statistics and Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
-My research is mostly motivated by applications in ecology while focusing on structural learning, uncertainty quantification and robustness in modern, complex data structure and analysis procedures. On the statistics side I study Bayesian nonparametrics, variable and graphical selection, scalable Bayesian computing and applied machine learning. On the ecology side I study population and community ecology mostly for carnivores. I have some random interests including multimessenger astronomy, space telescopes (e.g. TESS, HST) and NLP for Chinese politics. 
+My research is mostly motivated by applications in ecology while focusing on structural learning, uncertainty quantification,  robustness and connection to scientific (e.g. ecological, physical) theories in modern, complex data structure and analysis procedures. On the statistics side I study Bayesian nonparametrics, variable and graphical selection, scalable Bayesian computing and applied machine learning. On the ecology side I study population and community ecology mostly for carnivores. I have some random interests including multimessenger astronomy, space telescopes (e.g. TESS, HST) and NLP for Chinese politics. 
 
 ## My research
 Most recent statistics project:
@@ -20,7 +20,7 @@ Most recent statistics project:
 
 Most recent ecology project:
 
-- Population and spatial expansion of gray wolves (*Canis lupus*) in Wisconsin and the Great Lake region; 
+- Population and spatial expansion of gray wolves (*Canis lupus*) in Wisconsin and the Great Lake region, theory of *spatial induced* density dependent; 
 
 A recent fun astronomy project:
 
