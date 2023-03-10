@@ -13,9 +13,9 @@ Education
 ======
 
 * Ph.D in Electrical Engineering and Computer Science, Massachusetts Institute of Technology, 2022-?
-* M.S. in Statistics, University of Wisconsin-Madison, 2018-2021
-* M.S. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
-* B.S. in Integrated Science/Physical Biology, Peking University, 2014-2018
+* M.Sc. in Statistics, University of Wisconsin-Madison, 2019-2021
+* M.Sc. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
+* B.Sc. in Integrated Science/Physical Biology, Peking University, 2014-2018
 
 Publications
 ======
