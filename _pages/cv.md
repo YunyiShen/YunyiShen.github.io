@@ -12,7 +12,8 @@ redirect_from:
 Education
 ======
 
-* Ph.D in Electrical Engineering and Computer Science, Massachusetts Institute of Technology, 2022-?
+* Ph.D in Computer Science, Massachusetts Institute of Technology, 2022-?
+* S.M. in Computer Science, Massachusetts Institute of Technology, 2022-2023
 * M.Sc. in Statistics, University of Wisconsin-Madison, 2019-2021
 * M.Sc. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
 * B.Sc. in Integrated Science/Physical Biology, Peking University, 2014-2018
