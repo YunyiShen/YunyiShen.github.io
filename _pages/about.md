@@ -10,7 +10,7 @@ redirect_from:
 
 I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). I earned my MSc degrees in Statistics and Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
-My research is mostly motivated by applications in ecology while focusing on structural learning, uncertainty quantification,  robustness and connection to scientific (e.g. ecological, physical) theories in modern, complex data structure and analysis procedures. On the statistics side I study Bayesian nonparametrics, variable selection, scalable (Bayesian) inverse problems and applied machine learning. On the ecology side I study population and community ecology mostly for carnivores. Unfortunately I am not able to mentor UROP students at the moment.
+My research is mostly motivated by applications in ecology while focusing on structural learning, uncertainty quantification,  robustness and connection to scientific (e.g. ecological, physical) theories in modern, complex data structure from emerging measurement technologies. On the statistics side I study Bayesian nonparametrics, variable selection, scalable (Bayesian) inverse problems and applied machine learning. On the ecology side I study population and community ecology mostly for carnivores. Unfortunately I am not able to mentor UROP students at the moment.
 
 ## My research
 Most recent statistics project:
@@ -20,7 +20,7 @@ Most recent statistics project:
 
 Most recent ecology project:
 
-- Population and spatial expansion of gray wolves (*Canis lupus*) in the Great Lake region, theory of *spatial induced* density dependent, large scale capture-recapture models; 
+- Population and spatial expansion of gray wolves (*Canis lupus*) in the western Great Lake region, theory of *spatial induced* density dependent, large scale capture-recapture models. 
 
 
 ## More about me
