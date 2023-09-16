@@ -15,12 +15,13 @@ My research is mostly motivated by applications in ecology while focusing on str
 ## My research
 Most recent statistics project:
 
+- Validation of predictive models on metric spaces;
 - Species and feature sampling problem with heterogeneity, multivariate random measures and [applications](https://openreview.net/forum?id=euBgC9yLeyl);
-- [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on Gaussian chain graph and its [frequentist properties](https://arxiv.org/abs/2209.04389);
+- [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on multivariate regressions and its [frequentist properties](https://arxiv.org/abs/2209.04389);
 
 Most recent ecology project:
 
-- Population and spatial expansion of gray wolves (*Canis lupus*) in the western Great Lake region, theory of *spatial induced* density dependent, large scale capture-recapture models. 
+- Population and spatial expansion of gray wolves (*Canis lupus*), theory of density dependence across spatial scales, large scale capture-recapture and occupancy models. 
 
 
 ## More about me
