@@ -15,13 +15,15 @@ My research is mostly motivated by applications in ecology and physics while foc
 ## My research
 Most recent statistics project:
 
-- Validation of predictive models on metric spaces;
-- Species and feature sampling problem with heterogeneity, multivariate random measures and [applications](https://openreview.net/forum?id=euBgC9yLeyl);
+- Active learning when features are hard to obtain, applications in genetics;
+- Distributional time series, Schrodinger bridges and SDEs, corresponding sampling strategies;
+- Species and feature sampling problem with heterogeneity, multivariate (complete) random measures and [applications](https://openreview.net/forum?id=euBgC9yLeyl);
 - [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on multivariate regressions and its [frequentist properties](https://arxiv.org/abs/2209.04389);
 
 Most recent ecology project:
 
-- Population and spatial expansion of gray wolves (*Canis lupus*), theory of density dependence across spatial scales, large scale capture-recapture and occupancy models. 
+- Population and spatial expansion of gray wolves (*Canis lupus*), theory of density dependence across spatial scales; 
+- Large scale capture-recapture and occupancy models for Osa peninsula jaguars. 
 
 
 ## More about me
