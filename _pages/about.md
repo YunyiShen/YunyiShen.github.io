@@ -17,8 +17,8 @@ Most recent statistics project:
 
 - Active learning when features are hard to obtain, applications in genetics;
 - Distributional time series, Schrodinger bridges and SDEs, corresponding sampling strategies;
-- Species and feature sampling problem with heterogeneity, multivariate (complete) random measures and [applications](https://openreview.net/forum?id=euBgC9yLeyl);
-- [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on multivariate regressions and its [frequentist properties](https://arxiv.org/abs/2209.04389);
+- Species and feature sampling problem with heterogeneity, multivariate (complete) random measures and [application](https://openreview.net/forum?id=euBgC9yLeyl) in genetics and sequencing strategies;
+- [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on multivariate regressions/chain graphs, its [frequentist properties](https://arxiv.org/abs/2209.04389) and [experimental design](https://arxiv.org/abs/2107.01306);
 
 Most recent ecology project:
 
