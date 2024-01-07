@@ -15,8 +15,8 @@ My research is mostly motivated by applications in ecology and physics while foc
 ## My research
 Most recent statistics project:
 
-- Active learning when features are hard to obtain, applications in genetics;
-- Distributional time series, Schrodinger bridges and SDEs, corresponding sampling strategies;
+- Active learning when features are hard to obtain, applications in genetics and astronomy;
+- Distributional time series, Schrodinger bridges and SDEs, corresponding sampling strategies, applications in genetics and oceanography;
 - Species and feature sampling problem with heterogeneity, multivariate (complete) random measures and [application](https://openreview.net/forum?id=euBgC9yLeyl) in genetics and sequencing strategies;
 - [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on multivariate regressions/chain graphs, its [frequentist properties](https://arxiv.org/abs/2209.04389) and [experimental design](https://arxiv.org/abs/2107.01306);
 
