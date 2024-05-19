@@ -8,22 +8,18 @@ redirect_from:
   - /about.html
 ---
 
-I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). I earned my MSc degrees in Statistics and Ecology at the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
+I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). Previously I got two MSc degrees in Statistics and Wildlife Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021 and a SM degree from MIT in Computer Science in 2024. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
-My research is mostly motivated by applications in ecology and physics while focusing on how we plan, analyze and validate measurements and models designed for modern, complex data structure from emerging technologies while keeping connection to our established and emerging scientific (e.g. ecological, physical) understandings of the subject matter. On the statistics side I study Bayesian nonparametrics, variable selection, scalable (Bayesian) inverse problems and applied machine learning. On the ecology side I study population and community ecology mostly for carnivores. Unfortunately I am not able to mentor UROP students at the moment.
+I believe new measurements drive new science and new measurements need new statistics. My research focus on statistical methods and experimental planning for new measurement methods in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal population to measuring elements in distant supernovae. I also maintain a line of ecological research on large carnivores, currently focused on population ecology and economical values of gray wolves (*Canis lupus*) and jaguars (*Panthera onca*) in various locations. 
 
-## My research
-Most recent statistics project:
 
-- Active learning when features are hard to obtain, applications in genetics and astronomy;
-- Distributional time series, Schrodinger bridges and SDEs, corresponding sampling strategies and applications in genetics and oceanography;
-- Species and feature sampling problem with heterogeneity, multivariate (complete) random measures and [application](https://openreview.net/forum?id=euBgC9yLeyl) in genetics and sequencing strategies;
-- [Spike-and-Slab LASSO](https://arxiv.org/abs/2207.07020) on multivariate regressions/chain graphs, its [frequentist properties](https://arxiv.org/abs/2209.04389) and [experimental design](https://arxiv.org/abs/2107.01306);
+## Current projects
 
-Most recent ecology project:
+- Distributional timeseries analysis and regressions, [Schrodinger bridges](https://openreview.net/forum?id=7UqA6WjwTO) and SDEs, corresponding sampling strategies and applications in molecular biology and oceanography;
+- Species and feature sampling problem with heterogeneity, multivariate (completely) random measures and [application](https://arxiv.org/abs/2403.02154) in genetics and sequencing strategies;
+- [Spike-and-Slab LASSO](https://projecteuclid.org/journals/bayesian-analysis/volume--1/issue--1/Estimating-Sparse-Direct-Effects-in-Multivariate-Regression-With-the-Spike/10.1214/24-BA1430.full) on multivariate regressions/chain graphs, its [frequentist properties](https://arxiv.org/abs/2209.04389) and [experimental design](https://link.springer.com/article/10.1007/s13253-024-00621-1) for microbime studies.
 
-- Population and spatial expansion of gray wolves (*Canis lupus*), theory of density dependence across spatial scales; 
-- Large scale capture-recapture and occupancy models for Osa peninsula jaguars. 
+
 
 
 ## More about me
