@@ -8,9 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). Previously I got two MSc degrees in Statistics and Wildlife Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) in 2021 and a SM degree from MIT in Computer Science in 2024. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
+I am a (statistics) PhD student (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). Previously I got two MSc degrees in Statistics and Wildlife Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) and a SM degree from MIT in Computer Science. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
-I believe new measurements drive new science and new measurements need new statistics. My research focus on statistical methods and experimental planning for new measurement methods in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal population to measuring elements in distant supernovae. I also maintain a line of ecological research on large carnivores, currently focused on population ecology and economical values of gray wolves (*Canis lupus*) and jaguars (*Panthera onca*) in various locations. 
+I believe new measurements drive new science and new measurements need new statistics. My research focus on statistical methods and experimental planning for new measurement methods in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal population to measuring chemical elements in distant supernovae. I also maintain a line of ecological research on large carnivores, currently focused on population ecology and economical values of apex predator species namely gray wolves (*Canis lupus*) and jaguars (*Panthera onca*) in various locations. 
 
 
 ## Current projects
