@@ -16,7 +16,7 @@ New sciences are driven by new measurements and new measurements need new statis
 ## Current projects
 - Interpolating between spectra and light curves of Type-Ia supernovae subtypes using diffusion models; 
 - Pressure field estimation with uncertainty quantification in cell fluid dynamics using Gaussian processes and particle tracking velocimetry;
-- Distributional timeseries analysis, regressions and factor models, [Schrodinger bridges](https://openreview.net/forum?id=7UqA6WjwTO) and inference of SDEs, corresponding sampling strategies and applications in computational biology and oceanography;
+- Distributional timeseries analysis, regressions and factor models, [Schrodinger bridges](https://arxiv.org/abs/2408.06277) and inference of SDEs, corresponding sampling strategies and applications in computational biology and oceanography;
 - Species and feature sampling problem with heterogeneity, multivariate (completely) random measures and [application](https://arxiv.org/abs/2403.02154) in genetics and sequencing strategies;
 
 
