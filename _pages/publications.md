@@ -4,7 +4,8 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-<small>*: corresponding author</small>
+<small>†: corresponding author</small>
+<small>*: equal contribution</small>
 
 Preprints
   <ul>{% for post in site.preprints reversed %}
