@@ -1,7 +1,7 @@
 ---
 title: "Multi-marginal Schrödinger Bridges with Iterative Reference Refinement."
-collection: preprints
-permalink: /preprints/2024-SBIRR
+collection: publications
+permalink: /publications/2024-SBIRR
 excerpt: 'Schrodinger bridges'
 date: 2025-3-10
 venue: 'arXiv (2024)'

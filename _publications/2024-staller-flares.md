@@ -1,7 +1,7 @@
 ---
 title: "Detecting stellar flares in photometric data using hidden Markov models."
-collection: preprints
-permalink: /preprints/2024-stellar-flares
+collection: publications
+permalink: /publications/2024-stellar-flares
 excerpt: 'astrostats'
 date: 2025-1-1
 venue: 'ApJ (2025)'
