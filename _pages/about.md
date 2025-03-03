@@ -15,9 +15,9 @@ New sciences are driven by new measurements and new measurements need new statis
 
 ## Current projects
 - Distributional timeseries, regressions and factor models, [Schrodinger bridges](https://arxiv.org/abs/2408.06277), [inference of SDEs](https://openreview.net/forum?id=7UqA6WjwTO) and identifiability of stochastic dynamics;
-- Machine learning/deep learning and generative models in physics, e.g., for time domain astronomy, especially supernovae;
-- [Theory](https://arxiv.org/abs/2411.04991) of learning human preference from binary annotations and corresponding [experimental design](https://arxiv.org/abs/2502.04354);
-- Population ecology and [capture-recapture models](https://arxiv.org/abs/2412.09431) with applications economical values of apex predator species namely gray wolves (*Canis lupus*) and jaguars (*Panthera onca*) in various locations (e.g., [jaguars in Costa Rica](https://www.cambridge.org/core/journals/oryx/article/conservation-crisis-status-of-jaguars-panthera-onca-in-corcovado-national-park-costa-rica/DB1034CFAED2447D7E4326BD481B5768) and [wolves in Wisconsin](https://arxiv.org/abs/2311.14815)). 
+- Machine learning/deep learning and generative models in physics, especially supernovae science and biophysics;
+- [Theory](https://arxiv.org/abs/2411.04991) of learning human preference from binary annotations, corresponding [experimental design](https://arxiv.org/abs/2502.04354) and robustness checks, with applications in Large Language Model alignment;
+- Population ecology of apex predators and [capture-recapture models](https://arxiv.org/abs/2412.09431) (e.g., [jaguars in Costa Rica](https://www.cambridge.org/core/journals/oryx/article/conservation-crisis-status-of-jaguars-panthera-onca-in-corcovado-national-park-costa-rica/DB1034CFAED2447D7E4326BD481B5768) and [wolves in Wisconsin](https://arxiv.org/abs/2311.14815)). 
 
 ## Some stuff I have worked in the past
 - Species and feature sampling problem with heterogeneity, multivariate (completely) random measures and [application](https://arxiv.org/abs/2403.02154) in genetics and sequencing strategies;
