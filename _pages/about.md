@@ -10,13 +10,14 @@ redirect_from:
 
 I am a (statistics) PhD candidate (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/). Previously I got two MSc degrees in Statistics and Wildlife Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) and a SM degree from MIT in Computer Science. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
-New sciences are driven by new measurements and new measurements need new statistics. My research focus on statistical methods and experimental planning for new measurement methods in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal populations to calibrating standard candles for cosmological distances. I also maintain a line of ecological research on large carnivores, currently focused on population ecology and economical values of apex predator species namely gray wolves (*Canis lupus*) and jaguars (*Panthera onca*) in various locations. 
+New sciences are driven by new measurements and new measurements need new statistics. My research focus on statistical methods and experimental planning for new measurement methods in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal populations to calibrating standard candles for cosmological distances.
 
 
 ## Current projects
-- Distributional timeseries analysis, regressions and factor models, [Schrodinger bridges](https://arxiv.org/abs/2408.06277), [inference of SDEs](https://openreview.net/forum?id=7UqA6WjwTO) and identifiability of stochastic dynamics;
-- Machine learning/deep learning and generative models in physics, e.g., for time domain astronomy, especially supernovae and fluid dynamics in cells;
-- [Theory](https://arxiv.org/abs/2411.04991) of learning human preference from binary annotations and corresponding experimental design;
+- Distributional timeseries, regressions and factor models, [Schrodinger bridges](https://arxiv.org/abs/2408.06277), [inference of SDEs](https://openreview.net/forum?id=7UqA6WjwTO) and identifiability of stochastic dynamics;
+- Machine learning/deep learning and generative models in physics, e.g., for time domain astronomy, especially supernovae;
+- [Theory](https://arxiv.org/abs/2411.04991) of learning human preference from binary annotations and corresponding [experimental design](https://arxiv.org/abs/2502.04354);
+- Population ecology and [capture-recapture models](https://arxiv.org/abs/2412.09431) with applications economical values of apex predator species namely gray wolves (*Canis lupus*) and jaguars (*Panthera onca*) in various locations (e.g., [jaguars in Costa Rica](https://www.cambridge.org/core/journals/oryx/article/conservation-crisis-status-of-jaguars-panthera-onca-in-corcovado-national-park-costa-rica/DB1034CFAED2447D7E4326BD481B5768) and [wolves in Wisconsin](https://arxiv.org/abs/2311.14815)). 
 
 ## Some stuff I have worked in the past
 - Species and feature sampling problem with heterogeneity, multivariate (completely) random measures and [application](https://arxiv.org/abs/2403.02154) in genetics and sequencing strategies;
