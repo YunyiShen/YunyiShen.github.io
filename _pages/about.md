@@ -10,7 +10,7 @@ redirect_from:
 
 I am a (final year) PhD candidate (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/) and a junior investigator in [IAIFI](https://iaifi.org/). Previously I got two MSc degrees in Statistics and Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) and a SM degree from MIT in Computer Science. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
-My research focus on statistics and machine learning methods as well as experimental planning for inverse problems in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal populations to calibrating standard candles for cosmic distance ladder. I am especially interested probabilistic machine learning in small data and/or low signal to noise ratio schemes where it is necessary to impose structural regularizations or leverage multimodal data. 
+My research focus on statistics and machine learning methods as well as experimental planning for scientific problems in biology and physics, ranging from perturbing gene networks, measuring fluid dynamics in cells, surveying animal populations to calibrating standard candles for cosmic distance ladder. I am especially interested probabilistic machine learning in scarce data and/or low signal to noise ratio schemes where it is necessary to impose structural regularizations or leverage multimodal data. 
 
 **I'm currently on job market!** I am looking for postdoc, TT assistant professor, research scientist or quantitative researcher roles. Please feel free to email me if you want to chat!  
 
