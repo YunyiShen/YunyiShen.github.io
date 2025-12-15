@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a (final year) PhD candidate (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/) and a junior investigator in [IAIFI](https://iaifi.org/). Previously I got two MSc degrees in Statistics and Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) and a ScM degree from MIT in Computer Science. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). I spent a summer in quantitative finance industry in 2025. 
+I am a (final year) PhD candidate (with [Tamara Broderick](https://tamarabroderick.com/)) in the EECS department at [MIT](https://web.mit.edu/) affiliated with [LIDS](https://lids.mit.edu/) and a junior investigator in [IAIFI](https://iaifi.org/). Previously I got two MSc degrees in Statistics and Ecology from the [University of Wisconsin-Madison](https://www.wisc.edu/) and a ScM degree from MIT in Computer Science. I did my undergraduate degree in Biology/Physics at [Peking University](http://english.pku.edu.cn). 
 
 I am primarily interested in machine learning for low signal-to-noise and data-scarce settings, where incorporating structure, designing data collection strategies, and carefully managing downstream risk are essential. My work is broadly motivated by scientific problems in biology and physics that naturally operate in this regime, ranging from perturbation experiments in gene regulatory networks and intracellular fluid dynamics to wildlife population surveys and the calibration of standard candles in the cosmic distance ladder.
 
