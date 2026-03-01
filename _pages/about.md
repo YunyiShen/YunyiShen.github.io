@@ -12,8 +12,6 @@ I am a (final year) PhD candidate (with [Tamara Broderick](https://tamarabroderi
 
 I am primarily interested in probabilistic machine learning and statistics for low signal-to-noise and data-scarce settings, where incorporating structure, designing data collection strategies, and carefully managing downstream risk are essential. My work is broadly motivated by scientific problems in biology and physics that naturally operate in this regime, ranging from perturbation experiments in gene regulatory networks and intracellular fluid dynamics to wildlife population surveys and the calibration of standard candles in the cosmic distance ladder.
 
-**I'm currently on job market!** I am looking for postdoc, TT assistant professor, research scientist or quantitative researcher roles. Please feel free to email me if you want to chat!  
-
 
 ## Current projects
 - Trajectory and SDE inference in computational biology using [multimarginal Schrödinger bridges](https://openreview.net/forum?id=VcwZ3gtYFY) and [least square in distribution space](https://arxiv.org/abs/2505.16082); identifiability theory of stochastic dynamics; 
