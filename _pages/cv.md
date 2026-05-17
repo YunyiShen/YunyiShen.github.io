@@ -12,8 +12,8 @@ redirect_from:
 Education
 ======
 
-* Ph.D in Computer Science (Minor in Astronomy), Massachusetts Institute of Technology, 2022-?
-* S.M. in Computer Science, Massachusetts Institute of Technology, 2022-2023
+* Ph.D in Computer Science (Minor in Astronomy), Massachusetts Institute of Technology, 2022-2026
+* S.M. in Computer Science, Massachusetts Institute of Technology, 2022-2024
 * M.Sc. in Statistics, University of Wisconsin-Madison, 2019-2021
 * M.Sc. in Wildlife Ecology, University of Wisconsin-Madison, 2018-2021
 * B.Sc. in Integrated Science/Physical Biology, Peking University, 2014-2018
@@ -29,13 +29,15 @@ Journal Articles
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+
+<!---
 Software
 ======
   <ul>{% for post in site.software reversed %}
     {% include archive-single-software-cv.html %}
   {% endfor %}</ul>
 
-<!---
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
@@ -61,7 +63,7 @@ Teaching
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
---->
+
 
 Skills
 ======
@@ -70,7 +72,7 @@ Skills
   * R, Python, C++, Matlab
 * Linux
 
-
+--->
 
 
 
@@ -79,4 +81,4 @@ Skills
 and
 
 
-[CV of Failure](https://YunyiShen.github.io/files/failure_CV.pdf)
+[CV of Failure](https://github.com/YunyiShen/CV-of-failure/blob/main/main.pdf)
