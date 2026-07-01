@@ -81,7 +81,7 @@ The process is **EXTREMELY FRUSTRATING** to everyone I talked to, probably excep
 
 You also don't quite know who makes the decision unless you know the politics in the department. I have a friend at UNC who told me a lot about it --- and I did not get the job after all, so that information was not all that useful for me, but it is also frustrating to know that they can make decisions quite arbitrarily. One of my biology friends once even said we should just Zoom-interview people and do a lottery. I still buy that.
 
-*Peer pressure is real*: you will have friends on the market at the same time, even from the same group. This is not a good feeling, no matter whether they get more or fewer interviews. I felt really bad when my friend got a Cornell Stats interview, which was my top choice at that time. I also did not know whether I should keep him posted on my progress, but he clearly did not want to keep me posted, or at least not actively.
+***Peer pressure is real***: you will have friends on the market at the same time, even from the same group. This is not a good feeling, no matter whether they get more or fewer interviews. I felt really bad when my friend got a Cornell Stats interview, which was my top choice at that time. I also did not know whether I should keep him posted on my progress, but he clearly did not want to keep me posted, or at least not actively.
 
 **You are not alone!** We all felt this way. Academia is a weird place and has a lot of nonsense. The job market is definitely one of them.
 
@@ -115,4 +115,9 @@ In quant, you are doing research about the market, and the goal is simple: makin
 Both places have IP constraints, but quant is way more secretive than faculty. Quants pay that much to make sure you do not leak what you figured out in the company. So one big trade-off is that you must become nobody in the quant world. You have to give up some publicity --- this can be a big change for an academic, where we need visibility. One offer I got from quant had a lifelong NDA on what I worked on there, and some places have IP clauses so broad that they essentially all statistics are covered.
 
 
-## On the productivity drop
+## On the productivity drop and self doubt
+
+I was not able to essentially do *anything* for the entire period of job market --- if you add the summer in CitSec, I basically had a whole year not doing anything beyond finishing up things in hand and I think that is generally true for people. No one expect you to be productive when looking for jobs. I am not sure how to regain these momenta and will report back eventually. 
+
+At the time when I wrote this, I kind of start doubting if I really like academic research --- as after this long time, I do not seem to miss doing them. I don't quite miss writing papers nor grinding benchmarks. Hearing about other people's research also just feel mid --- especially when I hear peers who decided to go in AI industry, I doubt my current choice. I hope eventually I will report back if this persists, or the feel is real that I ended up change course to quant finance or AI. But for now I think academia is what I want. Only time can tell. 
+
